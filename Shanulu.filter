@@ -8,7 +8,6 @@
 # ================================
 #
 # ****  Todo List ****
-# Offering to the Goddess
 # Stricter Magic Item Hiding
 # 4 Link highlight up to level 40 or so
 #=================================
@@ -207,8 +206,50 @@ Show
 	SetTextColor 0 0 0 255				#BLACK 
 	SetBorderColor 170 158 130 255		#CURRENCY GRAY
 	SetFontSize 30
+	
+# FOSSILS
 
+Show #TOP TIER ACCORDING TO POE.NINJA 9/8/18
+	BaseType "Faceted Fossil" "Fractured Fossil" "Hollow Fossil"
+	SetBackgroundColor 130 138 170 255	#CURRENCY BLUE
+	SetTextColor 0 0 0 255				#
+	SetBorderColor 0 0 0 255			#
+	SetFontSize 40
+	PlayAlertSound 6 300	
 
+Show #HIGH TO MID TIER 
+	BaseType "Glyphic Fossil" "Shuddering Fossil" "Bloodstained Fossil" "Tangled Fossil" "Gilded Fossil" "Sanctified Fossil" "Lucent Fossil" "Prismatic Fossil"
+	SetBackgroundColor 130 138 170 255	#CURRENCY BLUE
+	SetTextColor 0 0 0 255				#
+	SetBorderColor 0 0 0 255			#
+	SetFontSize 40
+	PlayAlertSound 2 300	
+
+Show #MID TO LOW TIER, SUB 2 CHAOS
+	BaseType "Aetheric Fossil" "Enchanted Fossil" "Encrusted Fossil" "Jagged Fossil" "Perfect Fossil" "Pristine Fossil" "Corroded Fossil" "Bound Fossil" "Dense Fossil" "Metallic Fossil" "Serrated Fossil" "Scorched Fossil" "Frigid Fossil" "Aberrant Fossil"
+	SetBackgroundColor 170 158 130 255	#CURRENCY GRAY
+	SetTextColor 0 0 0 255				#
+	SetBorderColor 0 0 0 255			#BLACK
+	SetFontSize 35
+	
+# RESONATORS
+Show
+	Class "Delve Socketable Currency"
+	BaseType "Prime"
+	SetBackgroundColor 130 138 170 255	#CURRENCY BLUE
+	SetTextColor 0 0 0 255				#
+	SetBorderColor 0 0 0 255			#
+	SetFontSize 40
+	PlayAlertSound 2 300
+	
+Show
+	Class "Delve Socketable Currency"
+	SetBackgroundColor 170 158 130 255	#CURRENCY GRAY
+	SetTextColor 0 0 0 255				#
+	SetBorderColor 0 0 0 255			#BLACK
+	SetFontSize 35
+
+# GENERAL CURRENCY
 # S TIER
 Show
 	BaseType "Mirror of Kalandra" "Exalted Orb" "Ancient Reliquary Key" "Timeworn Reliquary Key" "Mirror Shard" "Eternal Orb"
@@ -329,7 +370,9 @@ Show
 	SetTextColor 0 0 0 255				#
 	#SetBorderColor 					#
 	SetFontSize 30
-	
+
+
+
 # =======================
 #    END CURRENCY
 # =======================
@@ -433,7 +476,7 @@ Show
 	
 #OFFERING	
 Show
-	BaseType "Offering to the Goddess"
+	BaseType "Offering to the Goddess" 
 	SetBackgroundColor 0 0 0 255
 	SetTextColor 74 230 58 255				#QUEST GREEN
 	SetBorderColor 74 230 58 255			#QUEST GREEN 
@@ -863,7 +906,7 @@ Show
 	SetFontSize 30
 	PlayAlertSound 2 300
 
-#rare 2x2 RGB
+# rare 2x2 RGB
 Show
 	Width <= 2
 	Height <= 2
@@ -874,7 +917,7 @@ Show
 	SetBorderColor 170 158 130 255		#CURRENCY GRAY 
 	SetFontSize 30
 
-#magic 2x2 RGB
+# magic 2x2 RGB
 Show
 	Width <= 2
 	Height <= 2
@@ -885,7 +928,7 @@ Show
 	SetBorderColor 170 158 130 255		#CURRENCY GRAY
 	SetFontSize 30
 
-#normal 2x2 RGB	
+# normal 2x2 RGB	
 Show
 	Width <= 2
 	Height <= 2
@@ -896,7 +939,7 @@ Show
 	SetBorderColor 170 158 130 255		#CURRENCY GRAY
 	SetFontSize 30
 	
-#All other RGB
+# All other RGB
 Show
 	SocketGroup RGB
 	Rarity = Normal
@@ -1307,11 +1350,11 @@ Show
 	SetBorderColor 255 255 255 255
 	SetFontSize 30
 
-Show
-	BaseType "Mosaic Kite Shield"
-	Rarity = Normal
-	SetBorderColor 255 255 255 255
-	SetFontSize 35
+#Show
+#	BaseType "Mosaic Kite Shield"
+#	Rarity = Normal
+#	SetBorderColor 255 255 255 255
+#	SetFontSize 35
 
 	
 # ALWAYS SHOW WHITE ITEMS BELOW iLEVEL 13
@@ -1374,7 +1417,22 @@ Show
 # ===============================
 #        END SKILL GEMS
 # ===============================
+
+# ===============================
+#        QUEST ITEMS
+# ===============================
+# GOLDEN AND SILVER KEY	
+Show
+	BaseType "Golden Key" "Silver Key" "Treasure Key"
+	SetBackgroundColor 0 0 0 255
+	SetTextColor 74 230 58 255				#QUEST GREEN
+	SetBorderColor 74 230 58 255			#QUEST GREEN 
+	SetFontSize 40	
+	PlayEffect Green	
 	
+# ===============================
+#       END QUEST ITEMS
+# ===============================	
 
 # ==============================
 # 	    HIDE EVERYTHING
