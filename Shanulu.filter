@@ -978,7 +978,7 @@ Show
 	DropLevel >= 68
 	ItemLevel >= 84
 	Rarity = Rare
-	SetBackgroundColor 212 0 254			#RARE COMP1
+	SetBackgroundColor 212 0 254 255			#RARE COMP1
 	SetTextColor 254 170 0 255
 	SetBorderColor 254 170 0 255			#RARE YELLOW
 	SetFontSize 40
@@ -1028,7 +1028,18 @@ Show
 
 #==========================================================================	
 #THIS NEXT SECTION IS TAILORED TO STOP SHOWING RARES AFTER WE OUTLEVEL THEM
-#===========================================================================
+#==========================================================================
+
+# BUT FIRST WE SHOW 4 LINKS FOR A BIT 
+Show
+	Class  "Two Hand" "Bows" "Staves" "Body Armour" "Gloves" "Boots" "Helmets"
+	Rarity = Rare 
+	ItemLevel <= 38 #ABOUT THE END OF ACT 4
+	Identified False
+	SetBackgroundColor 254 170 0 255		#RARE YELLOW
+	SetTextColor 0 0 0 255
+	SetBorderColor 212 0 254 255			#RARE COMP1 
+	SetFontSize 35
 
 #1-17
 Show 
@@ -1204,6 +1215,17 @@ Hide
 #THIS NEXT SECTION IS TAILORED TO STOP SHOWING MAGICS AFTER WE OUTLEVEL THEM
 #===========================================================================
 
+# BUT FIRST WE SHOW 4 LINKS FOR A BIT 
+Show
+	Class  "Two Hand" "Bows" "Staves" "Body Armour" "Gloves" "Boots" "Helmets"
+	Rarity = Magic 
+	ItemLevel <= 38 #ABOUT THE END OF ACT 4
+	Identified False
+	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
+	SetTextColor 0 0 0 255
+	SetBorderColor 171 23 50 255			#MAGIC COMP2 
+	SetFontSize 35
+
 #1-11
 Show 
 	ItemLevel < 11
@@ -1343,19 +1365,29 @@ Hide
 #        NORMAL ITEMS 
 #=================================
 
-# ALAWYS SHOW MAP SPECIFIC BASES
+# ALWAYS SHOW MAP SPECIFIC BASES
 Show	
 	BaseType  "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Steel Ring" "Opal Ring"
 	Rarity = Normal
 	SetBorderColor 255 255 255 255
 	SetFontSize 30
+	
+# RISE OF THE PHOENIX CHANCE 
+Show
+	BaseType "Mosaic Kite Shield"
+	Rarity = Normal
+	SetBorderColor 255 255 255 255
+	SetFontSize 35
 
-#Show
-#	BaseType "Mosaic Kite Shield"
-#	Rarity = Normal
-#	SetBorderColor 255 255 255 255
-#	SetFontSize 35
-
+# WE SHOW 4 LINKS FOR A BIT 
+Show
+	Class  "Two Hand" "Bows" "Staves" "Body Armour" "Gloves" "Boots" "Helmets"
+	Rarity = Magic 
+	ItemLevel <= 38 #ABOUT THE END OF ACT 4
+	Identified False
+	SetBackgroundColor 0 0 0 255			#BLACK
+	SetBorderColor 255 255 255 255			#WHITE
+	SetFontSize 35	
 	
 # ALWAYS SHOW WHITE ITEMS BELOW iLEVEL 13
 Show
@@ -1371,6 +1403,8 @@ Hide
 # ================================
 #        END NORMAL ITEMS 
 #=================================
+
+
 
 # ================================
 #       SKILL GEMS 
