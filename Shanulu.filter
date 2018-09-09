@@ -944,7 +944,7 @@ Show
 	SocketGroup RGB
 	Rarity = Normal
 	SetBorderColor 170 158 130 255 		#CURRENCY GRAY
-	SetFontSize 25
+	SetFontSize 20
 		
 # =======================
 #    END RECIPES 
@@ -1035,7 +1035,6 @@ Show
 	Class  "Two Hand" "Bows" "Staves" "Body Armour" "Gloves" "Boots" "Helmets"
 	Rarity = Rare 
 	ItemLevel <= 38 #ABOUT THE END OF ACT 4
-	Identified False
 	SetBackgroundColor 254 170 0 255		#RARE YELLOW
 	SetTextColor 0 0 0 255
 	SetBorderColor 212 0 254 255			#RARE COMP1 
@@ -1157,7 +1156,7 @@ Hide
 	Identified False
 	SetBackgroundColor 254 170 0 255		#RARE YELLOW
 	SetTextColor 0 0 0 255
-	SetFontSize 20
+	SetFontSize 25
 	
 # ================================
 #        END RARE ITEMS
@@ -1199,17 +1198,15 @@ Show
 	SetTextColor 0 0 0 255
 	SetFontSize 35
 	
-# ALWAYS HIDE MAGIC ITEMS IN THIS RULESET
-
-# HIGH LEVEL MAGIC ITEMS ARE ALL HIDDEN
+# HIGH LEVEL MAGIC ITEMS ARE ALL HIDDEN REVEAL RULES BELOW
 Hide
-	ItemLevel > 65
+	DropLevel > 40
 	Rarity = Magic
 	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
 	Identified False
 	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
 	SetTextColor 0 0 0 255
-	SetFontSize 35
+	SetFontSize 20
 	
 #==========================================================================	
 #THIS NEXT SECTION IS TAILORED TO STOP SHOWING MAGICS AFTER WE OUTLEVEL THEM
@@ -1220,7 +1217,6 @@ Show
 	Class  "Two Hand" "Bows" "Staves" "Body Armour" "Gloves" "Boots" "Helmets"
 	Rarity = Magic 
 	ItemLevel <= 38 #ABOUT THE END OF ACT 4
-	Identified False
 	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
 	SetTextColor 0 0 0 255
 	SetBorderColor 171 23 50 255			#MAGIC COMP2 
@@ -1248,9 +1244,9 @@ Show
 	SetTextColor 0 0 0 255
 	SetFontSize 35
 	
-#11-23
+#11-20
 Show 
-	ItemLevel < 23
+	ItemLevel < 20
 	DropLevel >= 11
 	Rarity = Magic
 	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
@@ -1259,9 +1255,9 @@ Show
 	SetTextColor 0 0 0 255
 	SetFontSize 35
 	
-#17-30
+#17-25
 Show 
-	ItemLevel < 30
+	ItemLevel < 25
 	DropLevel >= 17
 	Rarity = Magic
 	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
@@ -1270,9 +1266,9 @@ Show
 	SetTextColor 0 0 0 255
 	SetFontSize 35
 	
-#23-36
+#23-30
 Show 
-	ItemLevel < 36
+	ItemLevel < 30
 	DropLevel >= 23
 	Rarity = Magic
 	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
@@ -1281,9 +1277,9 @@ Show
 	SetTextColor 0 0 0 255
 	SetFontSize 35
 
-#29-36
+#29-35
 Show 
-	ItemLevel < 42
+	ItemLevel < 35
 	DropLevel >= 29
 	Rarity = Magic
 	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
@@ -1292,9 +1288,9 @@ Show
 	SetTextColor 0 0 0 255
 	SetFontSize 35
 	
-#35-48
+#35-40
 Show 
-	ItemLevel < 48
+	ItemLevel < 40
 	DropLevel >= 35
 	Rarity = Magic
 	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
@@ -1302,51 +1298,6 @@ Show
 	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
 	SetTextColor 0 0 0 255
 	SetFontSize 35
-	
-#42-54
-Show 
-	ItemLevel < 54
-	DropLevel >= 42
-	Rarity = Magic
-	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
-	Identified False
-	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
-	SetTextColor 0 0 0 255
-	SetFontSize 35
-	
-#48-60
-Show 
-	ItemLevel < 60
-	DropLevel >= 48
-	Rarity = Magic
-	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
-	Identified False
-	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
-	SetTextColor 0 0 0 255
-	SetFontSize 35
-
-#54-66
-Show 
-	ItemLevel < 66
-	DropLevel >= 54
-	Rarity = Magic
-	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
-	Identified False
-	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
-	SetTextColor 0 0 0 255
-	SetFontSize 35
-	
-#54-66
-Show 
-	ItemLevel < 72
-	DropLevel >= 66
-	Rarity = Magic
-	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
-	Identified False
-	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
-	SetTextColor 0 0 0 255
-	SetFontSize 35
-
 	
 # THIS SHOULD COLOR ALL THE MAGICS AND HIDE THEM IF THEY DONT FALL UNDER THE ABOVE RULES	
 Hide
@@ -1375,9 +1326,8 @@ Show
 # WE SHOW 4 LINKS FOR A BIT 
 Show
 	Class  "Two Hand" "Bows" "Staves" "Body Armour" "Gloves" "Boots" "Helmets"
-	Rarity = Magic 
+	Rarity = Normal 
 	ItemLevel <= 38 #ABOUT THE END OF ACT 4
-	Identified False
 	SetBackgroundColor 0 0 0 255			#BLACK
 	SetBorderColor 255 255 255 255			#WHITE
 	SetFontSize 35	
