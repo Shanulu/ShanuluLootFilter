@@ -1371,13 +1371,6 @@ Show
 	Rarity = Normal
 	SetBorderColor 255 255 255 255
 	SetFontSize 30
-	
-# RISE OF THE PHOENIX CHANCE 
-Show
-	BaseType "Mosaic Kite Shield"
-	Rarity = Normal
-	SetBorderColor 255 255 255 255
-	SetFontSize 35
 
 # WE SHOW 4 LINKS FOR A BIT 
 Show
