@@ -1035,7 +1035,7 @@ Show
 Show
 	Class  "Two Hand" "Bows" "Staves" "Body Armour" "Gloves" "Boots" "Helmets"
 	Rarity = Rare 
-
+	LinkedSockets = 4
 	ItemLevel <= 38 
 	SetBackgroundColor 254 170 0 255		#RARE YELLOW
 	SetTextColor 0 0 0 255
@@ -1220,6 +1220,7 @@ Show
 	Class  "Two Hand" "Bows" "Staves" "Body Armour" "Gloves" "Boots" "Helmets"
 	Rarity = Magic 
 	ItemLevel <= 38 
+	LinkedSockets = 4
 	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
 	SetTextColor 0 0 0 255
 	SetBorderColor 171 23 50 255			#MAGIC COMP2 
@@ -1332,6 +1333,7 @@ Show
 	Class  "Two Hand" "Bows" "Staves" "Body Armour" "Gloves" "Boots" "Helmets"
 	Rarity = Normal 
 	ItemLevel <= 38 
+	LinkedSockets >= 4
 	SetBackgroundColor 0 0 0 255			#BLACK
 	SetBorderColor 255 255 255 255			#WHITE
 	SetFontSize 35	
