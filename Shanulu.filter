@@ -1030,11 +1030,13 @@ Show
 #THIS NEXT SECTION IS TAILORED TO STOP SHOWING RARES AFTER WE OUTLEVEL THEM
 #==========================================================================
 
-# BUT FIRST WE SHOW 4 LINKS FOR A BIT 
+# BUT FIRST WE SHOW 4 LINKS FOR A BIT  
+# ABOUT THE END OF ACT 4
 Show
 	Class  "Two Hand" "Bows" "Staves" "Body Armour" "Gloves" "Boots" "Helmets"
 	Rarity = Rare 
-	ItemLevel <= 38 #ABOUT THE END OF ACT 4
+
+	ItemLevel <= 38 
 	SetBackgroundColor 254 170 0 255		#RARE YELLOW
 	SetTextColor 0 0 0 255
 	SetBorderColor 212 0 254 255			#RARE COMP1 
@@ -1213,10 +1215,11 @@ Hide
 #===========================================================================
 
 # BUT FIRST WE SHOW 4 LINKS FOR A BIT 
+# ABOUT THE END OF ACT 4
 Show
 	Class  "Two Hand" "Bows" "Staves" "Body Armour" "Gloves" "Boots" "Helmets"
 	Rarity = Magic 
-	ItemLevel <= 38 #ABOUT THE END OF ACT 4
+	ItemLevel <= 38 
 	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
 	SetTextColor 0 0 0 255
 	SetBorderColor 171 23 50 255			#MAGIC COMP2 
@@ -1324,10 +1327,11 @@ Show
 	SetFontSize 30
 
 # WE SHOW 4 LINKS FOR A BIT 
+# ABOUT THE END OF ACT 4
 Show
 	Class  "Two Hand" "Bows" "Staves" "Body Armour" "Gloves" "Boots" "Helmets"
 	Rarity = Normal 
-	ItemLevel <= 38 #ABOUT THE END OF ACT 4
+	ItemLevel <= 38 
 	SetBackgroundColor 0 0 0 255			#BLACK
 	SetBorderColor 255 255 255 255			#WHITE
 	SetFontSize 35	
