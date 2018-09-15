@@ -10,3 +10,6 @@ September 9th:
 - Added 4 Link support up to iLevel 38
 - Added Fossil Currency Support
 - Fixed some Magic item hiding to everything over iLevel 40.
+
+September 14th:
+- Added a few more Divination cards.
