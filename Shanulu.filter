@@ -146,9 +146,40 @@ Show
 #CURRENCY GRAY 				170 158 130
 #CURRENCY PURPLE 			168 130 170
 #CURRENCY BLUE 				130 138 170
-#ESSENCE BLUE				30 144 255 
 
+# SCARABS
+
+Show
+	Class "Map Fragments"
+	BaseType "Gilded"
+	SetBackgroundColor 178 0 65 255
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetFontSize 40
+	PlayAlertSound 2 300              
+
+Show
+	Class "Map Fragments"
+	BaseType "Polished"
+	SetBackgroundColor 178 0 65 255
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetFontSize 35
+
+	
+Show
+	Class "Map Fragments"
+	BaseType "Rusted"
+	SetBackgroundColor 178 0 65 255
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetFontSize 30
+
+	
+	
+	
 # ESSENCE
+# ESSENCE BLUE				30 144 255 
 
 Show
 	Class Currency
@@ -422,7 +453,7 @@ Show
 # B TIER
 Show
 	Class "Divination"
-	BaseType "Audacity" "Blessing of God" "Blind Venture" "Earth Drinker" "Gemcutter's Promise" "Glimmer of Hope" "Harmony of Souls" "Hope" "Hubris" "Humility" "Jack in the Box" "Lingering Remnants" "Lost Worlds" "Lucky Connections" "Lucky Deck" "Merciless Armament" "No Traces" "Rats" "Rebirth" "Scholar of the Seas" "Shard of Fate" "Standoff" "The Admirer" "The Aesthete" "The Avenger" "The Beast" "The Blazing Fire" "The Body" "The Chains that Bind" "The Cursed King" "The Dark Mage" "The Darkest Dream" "The Demoness" "The Dreamland" "The Encroaching Darkness" "The Fletcher" "The Forsaken" "The Gladiator" "The Insatiable" "The Inventor" "The Jester" "The Lion" "The One With All" "The Penitent" "The Poet" "The Porcupine" "The Realm" "The Road to Power" "The Soul" "The Standoff" "The Surveyor" "The Sword King's Salute" "The Traitor" "The Trial" "The Tyrant" "The Warlord" "The Wrath" "The Wretched" "Treasure Hunter" "Valley of Steel Boxes" "Vinia's Token" "The Cacophony" "The Innocent" "Coveted Possession" "Emperor's Luck" "Loyalty" "The Catalyst" "The Gemcutter" "The Survivalist" "The Union" "Three Faces in the Dark" "Three Voices" "Rain of Chaos" "The Puzzle" "The Scholar" "Call to the First Ones" "The Opulent"
+	BaseType "Audacity" "Blessing of God" "Blind Venture" "Earth Drinker" "Gemcutter's Promise" "Glimmer of Hope" "Harmony of Souls" "Hope" "Hubris" "Humility" "Jack in the Box" "Lingering Remnants" "Lost Worlds" "Lucky Connections" "Lucky Deck" "Merciless Armament" "No Traces" "Rats" "Rebirth" "Scholar of the Seas" "Shard of Fate" "Standoff" "The Admirer" "The Aesthete" "The Avenger" "The Beast" "The Blazing Fire" "The Body" "The Chains that Bind" "The Cursed King" "The Dark Mage" "The Darkest Dream" "The Demoness" "The Dreamland" "The Encroaching Darkness" "The Fletcher" "The Forsaken" "The Gladiator" "The Insatiable" "The Inventor" "The Jester" "The Lion" "The One With All" "The Penitent" "The Poet" "The Porcupine" "The Realm" "The Road to Power" "The Soul" "The Standoff" "The Surveyor" "The Sword King's Salute" "The Traitor" "The Trial" "The Tyrant" "The Warlord" "The Wrath" "The Wretched" "Treasure Hunter" "Valley of Steel Boxes" "Vinia's Token" "The Cacophony" "The Innocent" "Coveted Possession" "Emperor's Luck" "Loyalty" "The Catalyst" "The Gemcutter" "The Survivalist" "The Union" "Three Faces in the Dark" "Three Voices" "Rain of Chaos" "The Puzzle" "Call to the First Ones" "The Opulent"
 	SetBackgroundColor 0 0 0 255			#BLACK  
 	SetTextColor 14 186 255 255				#ESSENCE BLUE 
 	SetBorderColor 255 255 255 255 			#WHITE 
@@ -434,7 +465,7 @@ Show
 # C TIER
 Show
 	Class "Divination"
-	BaseType "A Mother's Parting Gift" "Anarchy's Price" "Birth of the Three" "Carrion Crow" "Cartographer's Delight" "Death" "Dying Anguish" "Hermit" "King's Blade" "Lantador's Lost Love" "Light and Truth" "Metalsmith's Gift" "Might is Right" "Other Cheek" "Prosperity" "Rain of Chaos" "Rain Tempter" "Struck by Lightning" "The Army of Blood" "The Coming Storm" "The Conduit" "The Eye of the Dragon" "The Feast" "The Gambler" "The Incantation" "The Inoculated" "The Lich" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Oath" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Scholar" "The Sigil" "The Siren" "The Surgeon" "The Tower" "The Twins" "The Warden" "The Wolverine" "Thunderous Skies" "Volatile Power" "Her Mask" "The Flora's Gift" "The Gentleman" "The Doppelganger" "The Endurance" "The Drunken Aristocrat" "Destined to Crumble" "Mitts" "The Betrayal" "The Rite of Elements" "The Calling" "Hunter's Resolve" "Doedre's Madness" "Boundless Realms"
+	BaseType "A Mother's Parting Gift" "Anarchy's Price" "Birth of the Three" "Carrion Crow" "Cartographer's Delight" "Death" "Dying Anguish" "Hermit" "King's Blade" "Lantador's Lost Love" "Light and Truth" "Metalsmith's Gift" "Might is Right" "Other Cheek" "Prosperity" "Rain of Chaos" "Rain Tempter" "Struck by Lightning" "The Army of Blood" "The Coming Storm" "The Conduit" "The Eye of the Dragon" "The Feast" "The Gambler" "The Incantation" "The Inoculated" "The Lich" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Oath" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Scholar" "The Sigil" "The Siren" "The Surgeon" "The Tower" "The Twins" "The Warden" "The Wolverine" "Thunderous Skies" "Volatile Power" "Her Mask" "The Flora's Gift" "The Gentleman" "The Doppelganger" "The Endurance" "The Drunken Aristocrat" "Destined to Crumble" "Mitts" "The Betrayal" "The Rite of Elements" "The Calling" "Hunter's Resolve" "Doedre's Madness" "Boundless Realms" "The Web" "The Scholar" 
 	SetBackgroundColor 0 0 0 255			#BLACK  
 	SetTextColor 14 186 255 255				#ESSENCE BLUE 
 	#SetBorderColor 255 255 255 255			#WHITE 
@@ -809,6 +840,19 @@ Hide
 # ==============================
 #        END JEWELS 
 # ==============================
+
+# ================================
+#       VEILED ITEMS TEMPORARY 
+# ================================
+
+Show 
+	Identified True
+	HasExplicitMod "Veil"
+	SetBackgroundColor 255 255 255 255
+	SetTextColor 0 0 0 255
+	SetBorderColor 255 255 255 255
+	SetFontSize 40
+	
 	
 # ================================
 #        UNIQUE ITEMS 
@@ -939,10 +983,44 @@ Show
 	SetBorderColor 170 158 130 255		#CURRENCY GRAY
 	SetFontSize 30
 	
+# rare 1x3 RGB
+Show
+	Width <= 1
+	Height <= 3
+	SocketGroup RGB
+	Rarity = Rare
+	SetBackgroundColor 204 163 0 255 	#RARE YELLOW
+	SetTextColor 170 158 130 255		#CURRENCY GRAY	
+	SetBorderColor 170 158 130 255		#CURRENCY GRAY 
+	SetFontSize 30
+
+# magic 1x3 RGB
+Show
+	Width <= 1
+	Height <= 3
+	SocketGroup RGB
+	Rarity =  Magic
+	SetBackgroundColor 23 75 171 255	#MAGIC BLUE 
+	SetTextColor 170 158 130 255 		#CURRENCY GRAY	
+	SetBorderColor 170 158 130 255		#CURRENCY GRAY
+	SetFontSize 30
+
+# normal 1x3 RGB	
+Show
+	Width <= 1
+	Height <= 3
+	SocketGroup RGB
+	Rarity =  Normal
+	#SetBackgroundColor 
+	SetTextColor 170 158 130 255 		#CURRENCY GRAY	
+	SetBorderColor 170 158 130 255		#CURRENCY GRAY
+	SetFontSize 30	
+	
 # All other RGB
 Show
 	SocketGroup RGB
 	Rarity = Normal
+	SetTextColor 170 158 130 255 		#CURRENCY GRAY
 	SetBorderColor 170 158 130 255 		#CURRENCY GRAY
 	SetFontSize 20
 		
@@ -1314,11 +1392,13 @@ Hide
 	
 # ================================
 #       END MAGIC ITEMS 
-#=================================	
+# ================================	
+
+
 
 # ================================
 #        NORMAL ITEMS 
-#=================================
+# ================================
 
 # ALWAYS SHOW MAP SPECIFIC BASES
 Show	
@@ -1326,6 +1406,7 @@ Show
 	Rarity = Normal
 	SetBorderColor 255 255 255 255
 	SetFontSize 30
+
 
 # WE SHOW 4 LINKS FOR A BIT 
 # ABOUT THE END OF ACT 4

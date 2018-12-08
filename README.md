@@ -13,3 +13,8 @@ September 9th:
 
 September 14th:
 - Added a few more Divination cards.
+- Added 1x3 Chromatic recipe.
+
+December 7th:
+- Added Scarabs.
+- Added Preliminary Veiled Mods Suppport.
