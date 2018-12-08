@@ -4,6 +4,8 @@ A Path of Exile Loot FIlter
 December 7th:
 - Added Scarabs.
 - Added Preliminary Veiled Mods Suppport.
+- Reworked Maps section to use MapTier.
+- Added Stone of Passage.
 
 September 14th:
 - Added a few more Divination cards.

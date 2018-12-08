@@ -507,7 +507,7 @@ Show
 	
 #OFFERING	
 Show
-	BaseType "Offering to the Goddess" 
+	BaseType "Offering to the Goddess" "Stone of Passage"
 	SetBackgroundColor 0 0 0 255
 	SetTextColor 74 230 58 255				#QUEST GREEN
 	SetBorderColor 74 230 58 255			#QUEST GREEN 
@@ -528,7 +528,7 @@ Show
 
 # TOP TIER		
 Show 
-	DropLevel >= 78
+	MapTier >= 11
 	Class  Maps
 	SetBackgroundColor 0 0 0 255
 	SetTextColor 150 0 0 255				#RED TIER
@@ -540,7 +540,7 @@ Show
 	
 # All MID TIER
 Show 
-	DropLevel >= 73
+	MapTier >= 6
 	Class  Maps
 	SetBackgroundColor 0 0 0 255		
 	SetTextColor 254 213 0 255				#YELLOW TIER
@@ -551,8 +551,7 @@ Show
 
 # ALL LOW TIER
 Show
-	ItemLevel < 79
-	DropLevel < 73
+	MapTier < 6
 	Class  Maps
 	SetBackgroundColor 0 0 0 255
 	SetTextColor 255 255 255 255
