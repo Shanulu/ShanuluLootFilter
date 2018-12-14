@@ -289,6 +289,7 @@ Show
 	SetBorderColor 0 0 0 255			#
 	SetFontSize 40
 	PlayAlertSound 6 300				#TEMP SOUND
+	MinimapIcon 0 Green Hexagon
 
 # A TIER
 Show 
@@ -298,6 +299,7 @@ Show
 	SetBorderColor 0 0 0 255			#
 	SetFontSize 40
 	PlayAlertSound 2 300				#TEMP SOUND
+	MinimapIcon 2 Green Hexagon
 
 # B TIER
 Show #With Sound
@@ -426,10 +428,22 @@ Show #C TIER
 	MinimapIcon 0 Blue Square
 	#PlayEffect Blue
 
+# Not to be confused with The Master	
+Show
+	Class "Divination"
+	BaseType "The Master Artisan"
+	SetBackgroundColor 0 0 0 255			#BLACK  
+	SetTextColor 14 186 255 255				#ESSENCE BLUE 
+	#SetBorderColor 255 255 255 255			#WHITE 
+	SetFontSize 30
+	#PlayAlertSound 6 300
+	MinimapIcon 0 Blue Square
+	#PlayEffect Blue	
+
 # S TIER
 Show
 	Class "Divination"
-	BaseType "Abandoned Wealth" "Heterochromia" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Last Hope" "Mawr Blaidd" "Polymath" "Pride Before the Fall" "Spark and the Flame" "The Artist" "The Brittle Emperor" "The Celestial Justicar" "The Celestial Stone" "The Doctor" "The Dragon's Heart" "The Enlightened" "The Fiend" "The Formless Sea" "The Hunger" "The Immortal" "The Iron Bard" "The King's Heart" "The Last One Standing" "The Master" "The Mayor" "The Offering" "The Professor" "The Queen" "The Saint's Treasure" "The Samurai's Eye" "The Sephirot" "The Spark and the Flame" "The Undaunted" "The Valkyrie" "The Wind" "The Wolf" "The Wolven King's Bite" "The World Eater" "Wealth and Power" "Beauty Through Death" "The Endless Darkness" "Boon of the First Ones"
+	BaseType "Abandoned Wealth" "Heterochromia" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Last Hope" "Mawr Blaidd" "Polymath" "Pride Before the Fall" "Spark and the Flame" "The Artist" "The Brittle Emperor" "The Celestial Justicar" "The Celestial Stone" "The Doctor" "The Dragon's Heart" "The Enlightened" "The Fiend" "The Formless Sea" "The Hunger" "The Immortal" "The Iron Bard" "The King's Heart" "The Last One Standing" "The Master" "The Mayor" "The Offering" "The Professor" "The Queen" "The Saint's Treasure" "The Samurai's Eye" "The Sephirot" "The Spark and the Flame" "The Undaunted" "The Wind" "The Wolf" "The Wolven King's Bite" "The World Eater" "Wealth and Power" "Beauty Through Death" "The Endless Darkness" "Boon of the First Ones" "A Dab of Ink" "The Sacrifice"
 	SetBackgroundColor 14 186 255 255		#ESSENCE BLUE 
 	SetTextColor 255 255 255 255			#WHITE 
 	SetBorderColor 0 0 0 255 				#BLACK 
@@ -441,7 +455,7 @@ Show
 # A TIER
 Show
 	Class "Divination"
-	BaseType "Bowyer's Dream" "Chaotic Disposition" "Emperor of Purity" "Left to Fate" "Perfection" "Saint's Treasure" "The Breach" "The Cartographer" "The Dapper Prodigy" "The Dragon" "The Dreamer" "The Ethereal" "The Hale Heart" "The Hoarder" "The Jeweller's Boon" "The Obscured" "The Polymath" "The Risk" "The Thaumaturgist" "The Throne" "The Undisputed" "The Valley of Steel Boxes" "The Vast" "The Void" "Time-Lost Relic" "The Wilted Rose" "The Price of Protection" "The Twilight Moon"
+	BaseType "Bowyer's Dream" "Chaotic Disposition" "Emperor of Purity" "Left to Fate" "Perfection" "The Saint's Treasure" "The Breach" "The Cartographer" "The Dapper Prodigy" "The Dragon" "The Dreamer" "The Ethereal" "The Hale Heart" "The Hoarder" "The Jeweller's Boon" "The Obscured" "The Polymath" "The Risk" "The Thaumaturgist" "The Throne" "The Undisputed" "The Valley of Steel Boxes" "The Vast" "The Void" "Time-Lost Relic" "The Wilted Rose" "The Price of Protection" "The Twilight Moon" "The Visionary" "The Fathomless Depths" "The Life Thief" "The Nurse"
 	SetBackgroundColor 14 186 255 255		#ESSENCE BLUE   
 	SetTextColor 0 0 0 255					#BLACK  
 	SetBorderColor 0 0 0 255				#BLACK   
@@ -453,7 +467,7 @@ Show
 # B TIER
 Show
 	Class "Divination"
-	BaseType "Audacity" "Blessing of God" "Blind Venture" "Earth Drinker" "Gemcutter's Promise" "Glimmer of Hope" "Harmony of Souls" "Hope" "Hubris" "Humility" "Jack in the Box" "Lingering Remnants" "Lost Worlds" "Lucky Connections" "Lucky Deck" "Merciless Armament" "No Traces" "Rats" "Rebirth" "Scholar of the Seas" "Shard of Fate" "Standoff" "The Admirer" "The Aesthete" "The Avenger" "The Beast" "The Blazing Fire" "The Body" "The Chains that Bind" "The Cursed King" "The Dark Mage" "The Darkest Dream" "The Demoness" "The Dreamland" "The Encroaching Darkness" "The Fletcher" "The Forsaken" "The Gladiator" "The Insatiable" "The Inventor" "The Jester" "The Lion" "The One With All" "The Penitent" "The Poet" "The Porcupine" "The Realm" "The Road to Power" "The Soul" "The Standoff" "The Surveyor" "The Sword King's Salute" "The Traitor" "The Trial" "The Tyrant" "The Warlord" "The Wrath" "The Wretched" "Treasure Hunter" "Valley of Steel Boxes" "Vinia's Token" "The Cacophony" "The Innocent" "Coveted Possession" "Emperor's Luck" "Loyalty" "The Catalyst" "The Gemcutter" "The Survivalist" "The Union" "Three Faces in the Dark" "Three Voices" "Rain of Chaos" "The Puzzle" "Call to the First Ones" "The Opulent"
+	BaseType "Audacity" "Blessing of God" "Blind Venture" "Earth Drinker" "Gemcutter's Promise" "Glimmer of Hope" "Harmony of Souls" "Hope" "Hubris" "Humility" "Jack in the Box" "Lingering Remnants" "Lost Worlds" "Lucky Connections" "Lucky Deck" "Merciless Armament" "No Traces" "Rats" "Rebirth" "Scholar of the Seas" "Shard of Fate" "Standoff" "The Admirer" "The Aesthete" "The Avenger" "The Beast" "The Blazing Fire" "The Body" "The Chains that Bind" "The Cursed King" "The Dark Mage" "The Darkest Dream" "The Demoness" "The Dreamland" "The Encroaching Darkness" "The Fletcher" "The Forsaken" "The Gladiator" "The Insatiable" "The Inventor" "The Jester" "The Lion" "The One With All" "The Penitent" "The Poet" "The Porcupine" "The Realm" "The Road to Power" "The Soul" "The Standoff" "The Surveyor" "The Sword King's Salute" "The Traitor" "The Trial" "The Tyrant" "The Warlord" "The Wrath" "The Wretched" "Treasure Hunter" "Valley of Steel Boxes" "Vinia's Token" "The Cacophony" "The Innocent" "Coveted Possession" "Emperor's Luck" "Loyalty" "The Catalyst" "The Gemcutter" "The Survivalist" "The Union" "Three Faces in the Dark" "Three Voices" "Rain of Chaos" "The Puzzle" "Call to the First Ones" "The Opulent" "The Watcher" "The Valkyrie" "The Deceiver" "The Garish Power" "Atziri's Arsenal" "Dialla's Subjugation" "Forbidden Power" "Lysah's Respite" "The Arena Champion" "The Cataclysm" "The Explorer" "The Harvester" "The Lord in Black" "The Mercenary" "The Scavenger" "The Stormcaller"
 	SetBackgroundColor 0 0 0 255			#BLACK  
 	SetTextColor 14 186 255 255				#ESSENCE BLUE 
 	SetBorderColor 255 255 255 255 			#WHITE 
@@ -465,7 +479,7 @@ Show
 # C TIER
 Show
 	Class "Divination"
-	BaseType "A Mother's Parting Gift" "Anarchy's Price" "Birth of the Three" "Carrion Crow" "Cartographer's Delight" "Death" "Dying Anguish" "Hermit" "King's Blade" "Lantador's Lost Love" "Light and Truth" "Metalsmith's Gift" "Might is Right" "Other Cheek" "Prosperity" "Rain of Chaos" "Rain Tempter" "Struck by Lightning" "The Army of Blood" "The Coming Storm" "The Conduit" "The Eye of the Dragon" "The Feast" "The Gambler" "The Incantation" "The Inoculated" "The Lich" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Oath" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Scholar" "The Sigil" "The Siren" "The Surgeon" "The Tower" "The Twins" "The Warden" "The Wolverine" "Thunderous Skies" "Volatile Power" "Her Mask" "The Flora's Gift" "The Gentleman" "The Doppelganger" "The Endurance" "The Drunken Aristocrat" "Destined to Crumble" "Mitts" "The Betrayal" "The Rite of Elements" "The Calling" "Hunter's Resolve" "Doedre's Madness" "Boundless Realms" "The Web" "The Scholar" 
+	BaseType "A Mother's Parting Gift" "Anarchy's Price" "Birth of the Three" "Carrion Crow" "Cartographer's Delight" "Death" "Dying Anguish" "The Hermit" "The King's Blade" "Lantador's Lost Love" "Light and Truth" "Metalsmith's Gift" "Might is Right" "Other Cheek" "Prosperity" "Rain of Chaos" "Rain Tempter" "Struck by Lightning" "The Army of Blood" "The Coming Storm" "The Conduit" "The Eye of the Dragon" "The Feast" "The Gambler" "The Incantation" "The Inoculated" "The Lich" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Oath" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Scholar" "The Sigil" "The Siren" "The Surgeon" "The Tower" "The Twins" "The Warden" "The Wolverine" "Thunderous Skies" "Volatile Power" "Her Mask" "The Flora's Gift" "The Gentleman" "The Doppelganger" "The Endurance" "The Drunken Aristocrat" "Destined to Crumble" "Mitts" "The Betrayal" "The Rite of Elements" "The Calling" "Hunter's Resolve" "Doedre's Madness" "Boundless Realms" "The Web" "The Scholar" "The Summoner" "Grave Knowledge" "Gift of the Gemling Queen" "The Battle Born" "The Fox" "The Pack Leader" "The Pact" "The Spoiled Prince" "The Sun" "The Witch" "Tranquillity" "Turn the Other Cheek"
 	SetBackgroundColor 0 0 0 255			#BLACK  
 	SetTextColor 14 186 255 255				#ESSENCE BLUE 
 	#SetBorderColor 255 255 255 255			#WHITE 
@@ -507,7 +521,7 @@ Show
 	
 #OFFERING	
 Show
-	BaseType "Offering to the Goddess" "Stone of Passage"
+	BaseType "Offering to the Goddess" "Stone of Passage" "Divine Vessel"
 	SetBackgroundColor 0 0 0 255
 	SetTextColor 74 230 58 255				#QUEST GREEN
 	SetBorderColor 74 230 58 255			#QUEST GREEN 
@@ -1041,7 +1055,7 @@ Show
 
 # SHOWING MAP SPECIFIC BASES
 Show
-	BaseType  "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Steel Ring" "Opal Ring"
+	BaseType "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Steel Ring" "Opal Ring"
 	Rarity = Rare
 	SetBackgroundColor 254 170 0 255		#RARE YELLOW
 	SetTextColor 0 0 0 255
@@ -1254,16 +1268,16 @@ Hide
 Show
 	BaseType  "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Steel Ring" "Opal Ring"
 	Rarity = Magic
-	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
+	SetBackgroundColor 23 75 171 225		#MAGIC BLUE
 	SetTextColor 0 0 0 255					#BLACK
 	SetBorderColor 171 23 50 255			#MAGIC COMP2 
 	SetFontSize 35
-	PlayAlertSound 2 300 		
+	
 
 Show
 	Class "Jewel"
 	Rarity = Magic 
-	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
+	SetBackgroundColor 23 75 171 225		#MAGIC BLUE
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetFontSize 35
@@ -1273,7 +1287,7 @@ Show
 	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
 	Rarity = Magic
 	Identified True
-	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
+	SetBackgroundColor 23 75 171 225		#MAGIC BLUE
 	SetTextColor 0 0 0 255
 	SetFontSize 35
 	
@@ -1283,7 +1297,7 @@ Hide
 	Rarity = Magic
 	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
 	Identified False
-	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
+	SetBackgroundColor 23 75 171 225		#MAGIC BLUE
 	SetTextColor 0 0 0 255
 	SetFontSize 20
 	
@@ -1298,7 +1312,7 @@ Show
 	Rarity = Magic 
 	ItemLevel <= 38 
 	LinkedSockets = 4
-	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
+	SetBackgroundColor 23 75 171 225		#MAGIC BLUE
 	SetTextColor 0 0 0 255
 	SetBorderColor 171 23 50 255			#MAGIC COMP2 
 	SetFontSize 35
@@ -1310,7 +1324,7 @@ Show
 	Rarity = Magic
 	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
 	Identified False
-	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
+	SetBackgroundColor 23 75 171 225		#MAGIC BLUE
 	SetTextColor 0 0 0 255
 	SetFontSize 35
 	
@@ -1321,7 +1335,7 @@ Show
 	Rarity = Magic
 	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
 	Identified False
-	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
+	SetBackgroundColor 23 75 171 225		#MAGIC BLUE
 	SetTextColor 0 0 0 255
 	SetFontSize 35
 	
@@ -1332,7 +1346,7 @@ Show
 	Rarity = Magic
 	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
 	Identified False
-	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
+	SetBackgroundColor 23 75 171 225		#MAGIC BLUE
 	SetTextColor 0 0 0 255
 	SetFontSize 35
 	
@@ -1343,7 +1357,7 @@ Show
 	Rarity = Magic
 	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
 	Identified False
-	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
+	SetBackgroundColor 23 75 171 225		#MAGIC BLUE
 	SetTextColor 0 0 0 255
 	SetFontSize 35
 	
@@ -1354,7 +1368,7 @@ Show
 	Rarity = Magic
 	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
 	Identified False
-	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
+	SetBackgroundColor 23 75 171 225		#MAGIC BLUE
 	SetTextColor 0 0 0 255
 	SetFontSize 35
 
@@ -1365,7 +1379,7 @@ Show
 	Rarity = Magic
 	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
 	Identified False
-	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
+	SetBackgroundColor 23 75 171 225		#MAGIC BLUE
 	SetTextColor 0 0 0 255
 	SetFontSize 35
 	
@@ -1376,7 +1390,7 @@ Show
 	Rarity = Magic
 	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
 	Identified False
-	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
+	SetBackgroundColor 23 75 171 225		#MAGIC BLUE
 	SetTextColor 0 0 0 255
 	SetFontSize 35
 	
@@ -1385,7 +1399,7 @@ Hide
 	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
 	Rarity = Magic 
 	Identified False
-	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
+	SetBackgroundColor 23 75 171 225		#MAGIC BLUE
 	SetTextColor 0 0 0 255
 	SetFontSize 20
 	
@@ -1406,12 +1420,25 @@ Show
 	SetBorderColor 255 255 255 255
 	SetFontSize 30
 
+# ================================
+#      CHANCE ITEMS
+# ================================	
 
+# Grelwood Shank	
+#Show
+#	Corrupted False
+#	BaseType "Eternal Sword"
+#	Rarity Normal
+#	SetBorderColor 255 255 255 255
+#	SetFontSize 30
+
+ 	
+	
 # WE SHOW 4 LINKS FOR A BIT 
 # ABOUT THE END OF ACT 4
 Show
 	Class  "Two Hand" "Bows" "Staves" "Body Armour" "Gloves" "Boots" "Helmets"
-	Rarity = Normal 
+	Rarity Normal 
 	ItemLevel <= 38 
 	LinkedSockets >= 4
 	SetBackgroundColor 0 0 0 255			#BLACK

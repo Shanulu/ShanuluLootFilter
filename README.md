@@ -1,6 +1,15 @@
 # ShanuluLootFilter
 A Path of Exile Loot FIlter
 
+December 
+- Added the rest of the Divination Cards.
+- Fixed duplicate divination card names and retiered some.
+- Added the Divine Vessel.
+- Lowered the magic item alpha.
+- Removed sound on non-rare map bases.
+- Added A and S Tier Currency Minimap icon as Green Hexagon
+
+
 December 7th:
 - Added Scarabs.
 - Added Preliminary Veiled Mods Suppport.
