@@ -8,6 +8,10 @@ December
 - Lowered the magic item alpha.
 - Removed sound on non-rare map bases.
 - Added A and S Tier Currency Minimap icon as Green Hexagon
+- Moved Blessed Orb to the non-sound B Tier.
+- Filtered Identified items by affix.
+- Fixed a unique flask issue. 
+- Updated the Table of Contents.
 
 
 December 7th:

@@ -6,34 +6,47 @@
 # of Neversink's. I got sick of 
 # doing that every league.
 # ================================
-#
-# ****  Todo List ****
-# Stricter Magic Item Hiding
-# 4 Link highlight up to level 40 or so
-#=================================
-
 
 ### TABLE OF CONTENTS ###
 #   =============================
+#
 #	SPECIAL ITEMS
 #		FISHING RODS
 #		ALBINO RHOA FEATHER
 #		6 LINKS
+#
 # 	CURRENCY
+#		SCARABS
 #		ESSENCE
-#			TIERs
-#		S TIER#			
-#		A TIER
-#		B TIER
-#		C TIER
-#		D TIER
-#		MISC TIER
-#		BASIC COLORING CATCH ALL
+#			S TIER#			
+#			A TIER
+#			B TIER
+#			C TIER
+#			D TIER
+#			MISC TIER
+#			BASIC COLORING CATCH ALL
+#		FOSSILS
+#		RESONATORS
+#		GENERAL CURRENCY 
+#			S TIER
+#			A TIER
+#			B TIER
+#			B TIER NO SOUND
+#			C TIER 
+#			D TIER 
+#			MISC TIER
+#				PERANDUS
+#				SILVER COIN 
+#				HARBINGER EXTRA
+#
 # 	DIVINATION
+#		EXCEPTIONS
 #		S TIER
 #		A TIER 
 #		B TIER 
 # 		C TIER 
+#		FOSSILS
+#
 #	MAPS
 #		SPECIAL MAP-LIKE DROPS
 #		UNIQUE MAPS
@@ -41,29 +54,40 @@
 #		RED TIER
 #		YELLOW TIER
 #		WHITE TIER
+#
 #	FLASKS   ------ IVE JUST COPIED NEVERSINKS SECTION
 #		UNIQUE
 #		HEALING
 #		MANA
 #		UTILITY
+#
 # 	UNIQUES  
 #		S TIER
 #		A TIER 
 #		UNIQUE CATCH ALL 
+#
 #	RECIPES
 #		JEWELER
 #		CHROMATIC
+#
 #	RARE
 #		SHAPER/ELDER
 #		IDENTIFIED
 #		S TIER
 #		LEVELING
+#
 #	MAGIC
 #		IDENTIFIED
 #		LEVELING
+#
 #	NORMAL
 #		LEVELING
+#
+#   CHANCE
+#		INPULSA EXAMPLE
+#
 #	SKILL GEMS 
+#
 #	QUEST ITEMS
 
 
@@ -147,8 +171,10 @@ Show
 #CURRENCY PURPLE 			168 130 170
 #CURRENCY BLUE 				130 138 170
 
-# SCARABS
 
+# ===========================
+# 			SCARABS
+# ===========================
 Show
 	Class "Map Fragments"
 	BaseType "Gilded"
@@ -178,7 +204,9 @@ Show
 	
 	
 	
-# ESSENCE
+# ===========================
+# 			ESSENCE
+# ===========================
 # ESSENCE BLUE				30 144 255 
 
 Show
@@ -238,7 +266,9 @@ Show
 	SetBorderColor 170 158 130 255		#CURRENCY GRAY
 	SetFontSize 30
 	
-# FOSSILS
+# ===========================
+# 			FOSSILS
+# ===========================
 
 Show #TOP TIER ACCORDING TO POE.NINJA 9/8/18
 	BaseType "Faceted Fossil" "Fractured Fossil" "Hollow Fossil"
@@ -280,7 +310,9 @@ Show
 	SetBorderColor 0 0 0 255			#BLACK
 	SetFontSize 35
 
-# GENERAL CURRENCY
+# ===========================
+# 	   GENERAL CURRENCY
+# ===========================
 # S TIER
 Show
 	BaseType "Mirror of Kalandra" "Exalted Orb" "Ancient Reliquary Key" "Timeworn Reliquary Key" "Mirror Shard" "Eternal Orb"
@@ -303,7 +335,7 @@ Show
 
 # B TIER
 Show #With Sound
-	BaseType "Orb of Alchemy"  "Blessed Orb" "Vaal Orb" "Gemcutter's Prism" "Cartographer's Chisel" "Apprentice Cartographer's Sextant" "Regal Orb" "Bestiary Orb" "Orb of Horizons" 
+	BaseType "Orb of Alchemy" "Vaal Orb" "Gemcutter's Prism" "Cartographer's Chisel" "Apprentice Cartographer's Sextant" "Regal Orb" "Bestiary Orb" "Orb of Horizons" "Exalted Shard"
 	SetBackgroundColor 170 158 130 255	#CURRENCY GRAY
 	SetTextColor 0 0 0 255				#
 	SetBorderColor 0 0 0 255			#BLACK
@@ -311,7 +343,7 @@ Show #With Sound
 	PlayAlertSound 2 300				#TEMP SOUND
 	
 Show #Without Sound
-	BaseType "Orb of Alteration" "Exalted Shard" 
+	BaseType "Orb of Alteration" "Blessed Orb"
 	SetBackgroundColor 170 158 130 255	#CURRENCY GRAY
 	SetTextColor 0 0 0 255				#
 	SetBorderColor 0 0 0 255			#BLACK
@@ -479,7 +511,7 @@ Show
 # C TIER
 Show
 	Class "Divination"
-	BaseType "A Mother's Parting Gift" "Anarchy's Price" "Birth of the Three" "Carrion Crow" "Cartographer's Delight" "Death" "Dying Anguish" "The Hermit" "The King's Blade" "Lantador's Lost Love" "Light and Truth" "Metalsmith's Gift" "Might is Right" "Other Cheek" "Prosperity" "Rain of Chaos" "Rain Tempter" "Struck by Lightning" "The Army of Blood" "The Coming Storm" "The Conduit" "The Eye of the Dragon" "The Feast" "The Gambler" "The Incantation" "The Inoculated" "The Lich" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Oath" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Scholar" "The Sigil" "The Siren" "The Surgeon" "The Tower" "The Twins" "The Warden" "The Wolverine" "Thunderous Skies" "Volatile Power" "Her Mask" "The Flora's Gift" "The Gentleman" "The Doppelganger" "The Endurance" "The Drunken Aristocrat" "Destined to Crumble" "Mitts" "The Betrayal" "The Rite of Elements" "The Calling" "Hunter's Resolve" "Doedre's Madness" "Boundless Realms" "The Web" "The Scholar" "The Summoner" "Grave Knowledge" "Gift of the Gemling Queen" "The Battle Born" "The Fox" "The Pack Leader" "The Pact" "The Spoiled Prince" "The Sun" "The Witch" "Tranquillity" "Turn the Other Cheek"
+	BaseType "A Mother's Parting Gift" "Anarchy's Price" "Birth of the Three" "Carrion Crow" "Cartographer's Delight" "Death" "Dying Anguish" "The Hermit" "The King's Blade" "Lantador's Lost Love" "Light and Truth" "Metalsmith's Gift" "Might is Right" "Other Cheek" "Prosperity" "Rain of Chaos" "Rain Tempter" "Struck by Lightning" "The Army of Blood" "The Coming Storm" "The Conduit" "The Eye of the Dragon" "The Feast" "The Gambler" "The Incantation" "The Inoculated" "The Lich" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Oath" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Scholar" "The Sigil" "The Siren" "The Surgeon" "The Tower" "The Twins" "The Warden" "The Wolverine" "Thunderous Skies" "Volatile Power" "Her Mask" "The Flora's Gift" "The Gentleman" "The Doppelganger" "The Endurance" "The Drunken Aristocrat" "Destined to Crumble" "Mitts" "The Betrayal" "The Rite of Elements" "The Calling" "Hunter's Resolve" "Doedre's Madness" "Boundless Realms" "The Web" "The Scholar" "The Summoner" "Grave Knowledge" "Gift of the Gemling Queen" "The Battle Born" "The Fox" "The Pack Leader" "The Pact" "The Spoiled Prince" "The Sun" "The Witch" "Tranquillity" "Turn the Other Cheek" "Assassin's Favour"
 	SetBackgroundColor 0 0 0 255			#BLACK  
 	SetTextColor 14 186 255 255				#ESSENCE BLUE 
 	#SetBorderColor 255 255 255 255			#WHITE 
@@ -585,9 +617,14 @@ Show
 
 Show
 	Class "Life Flasks" "Mana Flasks" "Hybrid Flasks"
-	Rarity = Unique 
-	SetBackgroundColor 175 96 37 255			#UNIQUE BROWN
-	SetFontSize 40
+	Rarity = Unique
+	SetBackgroundColor 175 96 37 255		#UNIQUE BROWN
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+ 	SetFontSize 40
+	PlayAlertSound 3 300
+	PlayEffect Brown
+	MinimapIcon 0 White Star
 	
 Show # %D3
 	ItemLevel <= 65
@@ -866,6 +903,27 @@ Show
 	SetBorderColor 255 255 255 255
 	SetFontSize 40
 	
+# ================================
+#     IDENTIFIED ITEMS 
+# ================================
+
+Show
+	Identified True
+	HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "of Farrul" "of Craiceann" "of Fenumus" "of Saqawal" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "Merciless" "Runic" "Xoph's" "Esh's" "Necromancer's" 
+	Rarity Rare 
+	SetBackgroundColor 254 170 0 255		#RARE YELLOW
+	SetTextColor 0 0 0 255
+	SetBorderColor 212 0 254 255			#RARE COMP1
+	SetFontSize 40
+	
+Show
+	Identified True
+	HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "of Farrul" "of Craiceann" "of Fenumus" "of Saqawal" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "Merciless" "Runic" "Xoph's" "Esh's" "Necromancer's"
+	Rarity = Magic
+	SetBackgroundColor 23 75 171 225		#MAGIC BLUE
+	SetTextColor 0 0 0 255					#BLACK
+	SetBorderColor 171 23 50 255			#MAGIC COMP2 
+	SetFontSize 35
 	
 # ================================
 #        UNIQUE ITEMS 
@@ -962,6 +1020,10 @@ Show
 	SetTextColor 0 0 0 255
 	SetFontSize 30
 	PlayAlertSound 2 300
+	
+# =======================
+#     CHROMATICS
+# =======================
 
 # rare 2x2 RGB
 Show
@@ -1052,7 +1114,22 @@ Show
 #RARE COMP2						0 80 254
 #================================
 
-
+# ALWAYS SHOW SHAPER ITEMS 	
+Show
+	ShaperItem true
+	SetBackgroundColor 254 170 0 255		#RARE YELLOW
+	SetTextColor 0 0 0 255
+	SetBorderColor 212 0 254 255			#RARE COMP1
+	SetFontSize 40
+	
+# ALWAYS SHOW ELDER ITEMS	
+Show
+	ElderItem true
+	SetBackgroundColor 254 170 0 255		#RARE YELLOW
+	SetTextColor 0 0 0 255
+	SetBorderColor 212 0 254 255			#RARE COMP1
+	SetFontSize 40
+	
 # SHOWING MAP SPECIFIC BASES
 Show
 	BaseType "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Steel Ring" "Opal Ring"
@@ -1092,30 +1169,6 @@ Show
 	SetBorderColor 212 0 254 255			#RARE COMP1
 	SetFontSize 40
 
-# ALWAYS SHOW SHAPER ITEMS 	
-Show
-	ShaperItem true
-	SetBackgroundColor 254 170 0 255		#RARE YELLOW
-	SetTextColor 0 0 0 255
-	SetBorderColor 212 0 254 255			#RARE COMP1
-	SetFontSize 40
-	
-# ALWAYS SHOW ELDER ITEMS	
-Show
-	ElderItem true
-	SetBackgroundColor 254 170 0 255		#RARE YELLOW
-	SetTextColor 0 0 0 255
-	SetBorderColor 212 0 254 255			#RARE COMP1
-	SetFontSize 40
-	
-# SHOW RARE IDENTFIED ITEMS
-Show
-	Rarity = Rare 
-	Identified True
-	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
-	SetBackgroundColor 254 170 0 255		#RARE YELLOW
-	SetTextColor 0 0 0 255
-	SetFontSize 35
 
 #==========================================================================	
 #THIS NEXT SECTION IS TAILORED TO STOP SHOWING RARES AFTER WE OUTLEVEL THEM
@@ -1282,15 +1335,6 @@ Show
 	SetBorderColor 0 0 0 255
 	SetFontSize 35
 	
-# IDENTIFIED MAGIC Items
-Show 
-	Class  "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
-	Rarity = Magic
-	Identified True
-	SetBackgroundColor 23 75 171 225		#MAGIC BLUE
-	SetTextColor 0 0 0 255
-	SetFontSize 35
-	
 # HIGH LEVEL MAGIC ITEMS ARE ALL HIDDEN REVEAL RULES BELOW
 Hide
 	DropLevel > 40
@@ -1424,13 +1468,13 @@ Show
 #      CHANCE ITEMS
 # ================================	
 
-# Grelwood Shank	
-#Show
-#	Corrupted False
-#	BaseType "Eternal Sword"
-#	Rarity Normal
-#	SetBorderColor 255 255 255 255
-#	SetFontSize 30
+# Inpulsa
+Show
+	Corrupted False
+	BaseType "Sadist Garb"
+	Rarity Normal
+	SetBorderColor 255 255 255 255
+	SetFontSize 30
 
  	
 	
