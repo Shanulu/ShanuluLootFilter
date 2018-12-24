@@ -12,6 +12,7 @@ December
 - Filtered Identified items by affix.
 - Fixed a unique flask issue. 
 - Updated the Table of Contents.
+- Updated the Tiers (Thanks again to Neversink)
 
 
 December 7th:
