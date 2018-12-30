@@ -950,7 +950,7 @@ Show
 
 #S TIER - THANKS TO NEVERSINK FOR THESE TIERS
 Show
-	BaseType "Arcanist Gloves" "Assassin's Boots" "Callous Mask" "Clutching Talisman" "Crusader Boots" "Ezomyte Tower Shield" "Glorious Plate" "Greatwolf Talisman" "Harlequin Mask" "Imperial Maul" "Legion Gloves" "Nightmare Mace" "Occultist's Vestment" "Prismatic Jewel" "Prophecy Wand" "Rawhide Boots" "Rawhide Tower Shield" "Riveted Gloves" "Rotfeather Talisman" "Royal Axe" "Ruby Flask" "Sanctified Life Flask" "Sapphire Flask" "Wereclaw Talisman" "Jewelled Foil" "Lion Pelt" "Crystal Belt"
+	BaseType "Ambush Mitts" "Arcanist Slippers" "Callous Mask" "Carnal Boots" "Clutching Talisman" "Crusader Boots" "Ezomyte Tower Shield" "Glorious Plate" "Greatwolf Talisman" "Highborn Staff" "Jewelled Foil" "Nubuck Boots" "Occultist's Vestment" "Prismatic Jewel" "Prophecy Wand" "Rawhide Boots" "Rawhide Tower Shield" "Riveted Gloves" "Rotfeather Talisman" "Royal Axe" "Ruby Flask" "Sapphire Flask"
 	Rarity = Unique
 	SetBackgroundColor 37 175 136 255		#UNIQUE COMP2
 	SetTextColor 0 0 0 255
@@ -962,7 +962,7 @@ Show
 
 #A TIER
 Show
-	BaseType "Abyssal Axe" "Arcanist Slippers" "Bismuth Flask" "Black Maw Talisman" "Blood Raiment" "Blood Sceptre" "Carnal Sceptre" "Cedar Tower Shield" "Citadel Bow" "Clasped Mitts" "Cutlass" "Deicide Mask" "Destiny Leather" "Ezomyte Burgonet" "Full Wyrmscale" "Gladiator Plate" "Grand Mana Flask" "Hellion's Paw" "Highborn Staff" "Hydrascale Boots" "Hydrascale Gauntlets" "Jingling Spirit Shield" "Leather Cap" "Nubuck Boots" "Nubuck Gloves" "Penetrating Arrow Quiver" "Pinnacle Tower Shield" "Raven Mask" "Ritual Sceptre" "Royal Burgonet" "Sacrificial Garb" "Sanctified Mana Flask" "Savant's Robe" "Sharkskin Tunic" "Siege Axe" "Silken Hood" "Steelhead" "Thorium Spirit Shield" "Titan Greaves" "Topaz Flask" "Vaal Mask" "Vaal Spirit Shield" "Void Axe" "Wyrmscale Doublet" "Lacquered Garb" "Varnished Coat" "Nightmare Bascinet" "Champion Kite Shield"
+	BaseType "Ancient Gauntlets" "Arcanist Gloves" "Assassin's Boots" "Bismuth Flask" "Callous Mask Piece" "Cutlass" "Full Wyrmscale" "Gemstone Sword" "Grand Mana Flask" "Jingling Spirit Shield" "Legion Gloves" "Nightmare Bascinet" "Nightmare Mace" "Sacrificial Garb" "Savant's Robe" "Thorium Spirit Shield" "Topaz Flask" "Vaal Spirit Shield" "Wereclaw Talisman"
 	Rarity = Unique
 	SetBackgroundColor 85 37 175 255		#UNIQUE COMP1
 	SetTextColor 0 0 0 255
@@ -999,7 +999,7 @@ Show
 	LinkedSockets < 6
 	Rarity = Rare
 	SetBackgroundColor 204 163 0 255 	#RARE YELLOW
-	SetTextColor 168 130 170 255		#CURRENCY PURPLE	
+	SetTextColor 116 104 93 255			#CURRENCY GRAY DARKENED		
 	SetBorderColor 170 158 130 255 		#CURRENCY GRAY
 	SetFontSize 30
 	PlayAlertSound 2 300
@@ -1032,7 +1032,7 @@ Show
 	SocketGroup RGB
 	Rarity = Rare
 	SetBackgroundColor 204 163 0 255 	#RARE YELLOW
-	SetTextColor 170 158 130 255		#CURRENCY GRAY	
+	SetTextColor 116 104 93 255			#CURRENCY GRAY DARKENED	
 	SetBorderColor 170 158 130 255		#CURRENCY GRAY 
 	SetFontSize 30
 
@@ -1065,7 +1065,7 @@ Show
 	SocketGroup RGB
 	Rarity = Rare
 	SetBackgroundColor 204 163 0 255 	#RARE YELLOW
-	SetTextColor 170 158 130 255		#CURRENCY GRAY	
+	SetTextColor 116 104 93 255			#CURRENCY GRAY DARKENED		
 	SetBorderColor 170 158 130 255		#CURRENCY GRAY 
 	SetFontSize 30
 
@@ -1146,9 +1146,9 @@ Show
 	DropLevel >= 68
 	ItemLevel >= 84
 	Rarity = Rare
-	SetBackgroundColor 212 0 254 255			#RARE COMP1
-	SetTextColor 254 170 0 255
-	SetBorderColor 254 170 0 255			#RARE YELLOW
+	SetBackgroundColor 254 170 0 255			#RARE YELLOW
+	SetTextColor 0 80 254 255					#RARE COMP2
+	SetBorderColor 0 80 254 255					#RARE COMP2
 	SetFontSize 40
 
 # ALWAYS SHOW RARE JEWELERY 	

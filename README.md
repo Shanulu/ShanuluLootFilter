@@ -12,7 +12,8 @@ December
 - Filtered Identified items by affix.
 - Fixed a unique flask issue. 
 - Updated the Table of Contents.
-- Updated the Tiers (Thanks again to Neversink)
+- Updated the Unique Tiers (Thanks again to Neversink)
+- Changed RGB Coloration slightly on Rares. (Darker Currency Gray)
 
 
 December 7th:
