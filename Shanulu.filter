@@ -28,64 +28,65 @@
 #	[0254]			B TIER NO SOUND
 #	[0255]			C TIER 
 #	[0256]			D TIER 
-#	[0260]			MISC TIER
-#	[0261]				PERANDUS
-#	[0262]				SILVER COIN 
-#	[0263]				HARBINGER EXTRA
+#	[0260]		MISC CURRENCY
+#	[0261]			PERANDUS
+#	[0262]			SILVER COIN 
+#	[0263]			HARBINGER EXTRA
 #
-# 	[0300]		DIVINATION
-#	[0310]			EXCEPTIONS
-#	[0320]			S TIER
-#	[0330]			A TIER 
-#	[0340]			B TIER 
-# 	[0350]			C TIER 
+# 	[0300]	DIVINATION
+#	[0310]		EXCEPTIONS
+#	[0320]		S TIER
+#	[0330]		A TIER 
+#	[0340]		B TIER 
+# 	[0350]		C TIER 
 #		
 #
-#	[0400]		MAPS
-#	[0410]			SPECIAL MAP-LIKE DROPS
-#	[0420]			RED TIER
-#	[0430]			YELLOW TIER
-#	[0440]			WHITE TIER
+#	[0400]	MAPS
+#	[0410]		UNIQUE MAPS
+#	[0420]		SPECIAL MAP-LIKE DROPS
+#	[0430]		RED TIER
+#	[0440]		YELLOW TIER
+#	[0450]		WHITE TIER
 #
-#	[0500]		FLASKS   ------ IVE JUST COPIED NEVERSINKS SECTION
-#	[0510]			UNIQUE
-#	[0520]			HEALING
-#	[0530]			MANA
-#	[0540]			UTILITY
+#	[0500]	FLASKS   ------ IVE JUST COPIED NEVERSINKS SECTION
+#	[0510]		UNIQUE
+#	[0520]		HEALING
+#	[0530]		MANA
+#	[0540]		UTILITY
 #
-# 	[0600]		UNIQUES 
-#	[0610]			SPECIAL RULES
-#	[0610]			S TIER
-#	[0620]			A TIER 
-#	[0630]			UNIQUE CATCH ALL 
+# 	[0600]	UNIQUES 
+#	[0610]		SPECIAL RULES
+#	[0610]		S TIER
+#	[0620]		A TIER 
+#	[0630]		UNIQUE CATCH ALL 
 #
-#	[0700]		RECIPES
-#	[0710]			JEWELER
-#	[0720]			CHROMATIC
+#	[0700]	RECIPES
+#	[0710]		JEWELER
+#	[0720]		CHROMATIC
 #
-#	[0800]		RARE
-#	[0810]			SHAPER/ELDER/
-#	[0820]			MAP BASES
-#	[0830]			IDENTIFIED
-#	[0840]			S TIER
-#	[0850]			LEVELING
+#	[0800]	RARE
+#	[0810]		SHAPER/ELDER/
+#	[0820]		MAP BASES
+#	[0830]		IDENTIFIED
+#	[0840]		S TIER
+#	[0850]		LEVELING
 #
-#	[0900]		MAGIC
-#	[0910]			ELDER/SHAPER
-#	[0920]			MAP BASES
-#	[0930]			IDENTIFIED
-#	[0940]			LEVELING
+#	[0900]	MAGIC
+#	[0910]		ELDER/SHAPER
+#	[0920]		MAP BASES
+#	[0930]		IDENTIFIED
+#	[0940]		LEVELING
 #
-#   [1000]		CHANCE
+#   [1000]	CHANCE
 #
-#	[1100]		NORMAL
-#	[1110]			ELDER/SHAPER
-#	[1120]			MAP BASES
-#	[1130]			LEVELING
+#	[1100]	NORMAL
+#	[1110]		ELDER/SHAPER
+#	[1120]		MAP BASES
+#	[1130]		LEVELING
 #
-#	[1200]		SKILL GEMS 
+#	[1200]	SKILL GEMS 
 #
-#	[1300]		QUEST ITEMS
+#	[1300]	QUEST ITEMS
 
 
 # ============================
@@ -594,9 +595,19 @@ Show
 #WHITE TIER 					
 #========================
 
+#=============================================
+#	[0410]			UNIQUE MAPS
+#=============================================	
+Show 
+	Class  Maps
+	Rarity = Unique
+	SetBackgroundColor 175 96 37 255		#UNIQUE BROWN
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+ 	SetFontSize 40
 
 # ============================================
-#	[0410]			SPECIAL MAP-LIKE DROPS
+#	[0420]			SPECIAL MAP-LIKE DROPS
 #=============================================
 #FRAGMENTS
 Show 
@@ -630,10 +641,11 @@ Show
 	PlayEffect White
 
 #=============================================
-#	[0420]			RED TIER
+#	[0430]			RED TIER
 #=============================================	
 Show 
 	MapTier >= 11
+	Rarity < Unique
 	Class  Maps
 	SetBackgroundColor 0 0 0 255
 	SetTextColor 150 0 0 255				#RED TIER
@@ -644,10 +656,11 @@ Show
 	PlayEffect Red
 	
 #=============================================
-#	[0430]			YELLOW TIER
+#	[0440]			YELLOW TIER
 #=============================================	
 Show 
 	MapTier >= 6
+	Rarity < Unique
 	Class  Maps
 	SetBackgroundColor 0 0 0 255		
 	SetTextColor 254 213 0 255				#YELLOW TIER
@@ -657,10 +670,11 @@ Show
 	PlayEffect Yellow	
 
 #=============================================
-#	[0440]			RED TIER
+#	[0450]			RED TIER
 #=============================================	
 Show
 	MapTier < 6
+	Rarity < Unique
 	Class  Maps
 	SetBackgroundColor 0 0 0 255
 	SetTextColor 255 255 255 255
@@ -668,6 +682,8 @@ Show
 	SetFontSize 30     
 	MinimapIcon 2 White Circle
 	PlayEffect White
+	
+
 	
 # ==============================
 #        END MAPS 
@@ -677,11 +693,11 @@ Show
 	
 	
 # ==============================
-#	[0500]		FLASKS 
+#	[0500]	FLASKS 
 # ==============================	
 
 # ==============================
-#	[0510]		 UNIQUE FLASKS 	
+#	[0510]		UNIQUE FLASKS 	
 # ==============================
 # We override special flasks down in the unique section	
 Show
@@ -696,9 +712,9 @@ Show
 	MinimapIcon 0 White Star
 
 # ==============================
-#	[0520]		 HEALTH FLASKS 	
+#	[0520]		HEALTH FLASKS 	
 # ==============================
-# THIS FLASKS SECTION IS DIRECTLY COPYPASTAD FROM NEVERSINK SO THANKS FOR THAT
+# THIS FLASKS SECTION IS DIRECTLY COPYPASTAD FROM NEVERSINK
 Show # %D5
 	ItemLevel <= 5
 	Class "Life Flasks"
@@ -807,9 +823,9 @@ Show # %D5
 	SetBackgroundColor 0 0 0 255        
 
 # ==============================
-#	[0530]		 MANA FLASKS 	
+#	[0530]		MANA FLASKS 	
 # ==============================
-#   COPYPASTAD FROM NEVERSINK BECAUSE IM LAZY 2.0
+#   COPYPASTA'D FROM NEVERSINK BECAUSE IM LAZY 2.0
 
 
 Show # %D5
@@ -920,7 +936,7 @@ Show # %D5
 	SetBackgroundColor 0 0 0 255  
 	
 # ==============================
-#	[0540]		 UTILITY FLASKS 	
+#	[0540]		UTILITY FLASKS 	
 # ==============================	
 Show # %D3
 	ItemLevel <= 65
@@ -934,8 +950,9 @@ Show # %D3
 #        END FLASKS 
 # ==============================
 
+
 # ================================
-# 	[0600]		UNIQUES 
+# 	[0600]	UNIQUES 
 #=================================
 #UNIQUE BROWN					175 96 37	
 #UNIQUE COMP1 					85 37 175
@@ -943,7 +960,7 @@ Show # %D3
 #================================
 
 # ================================
-# 	[0610]			SPECIAL 
+# 	[0610]		SPECIAL 
 #=================================
 #TABULA
 Show
@@ -958,7 +975,7 @@ Show
 	MinimapIcon 0 Brown Star
 	
 # ================================
-# 	[0620]			#S TIER - THANKS TO NEVERSINK FOR THESE TIERS
+# 	[0620]		#S TIER - THANKS TO NEVERSINK FOR THESE TIERS
 #=================================
 
 Show
@@ -973,7 +990,7 @@ Show
 	MinimapIcon 0 Brown Star
 
 # ================================
-# 	[0630]			A TIER 
+# 	[0630]		A TIER 
 #=================================
 Show
 	BaseType "Ancient Gauntlets" "Arcanist Gloves" "Assassin's Boots" "Bismuth Flask" "Callous Mask Piece" "Cutlass" "Full Wyrmscale" "Gemstone Sword" "Grand Mana Flask" "Jingling Spirit Shield" "Legion Gloves" "Nightmare Bascinet" "Nightmare Mace" "Sacrificial Garb" "Savant's Robe" "Thorium Spirit Shield" "Topaz Flask" "Vaal Spirit Shield" "Wereclaw Talisman"
@@ -987,7 +1004,7 @@ Show
 	MinimapIcon 0 Yellow Star	
 	
 # ================================
-# 	[0640]			CATCH ALL
+# 	[0640]		CATCH ALL
 #=================================
 Show
 	Rarity = Unique
@@ -1005,7 +1022,7 @@ Show
 
 
 #=================================
-#	[0700]		RECIPES
+#	[0700]	RECIPES
 #=================================
 
 #=================================
@@ -1122,7 +1139,7 @@ Show
 # =======================
 
 # ================================
-#	[0800]		RARE
+#	[0800]	RARE
 # ================================
 #Rare Display Colors
 # ================================
@@ -1356,7 +1373,7 @@ Hide
 #=================================
 
 # ================================
-#	[0900]		MAGIC
+#	[0900]	MAGIC
 #=================================
 #Magic Display Colors
 #================================
@@ -1367,7 +1384,7 @@ Hide
 
 
 #================================
-#	[0910]	ELDER/SHAPER 
+#	[0910]		ELDER/SHAPER 
 #================================
 # ALWAYS SHOW SHAPER ITEMS 	
 Show
@@ -1390,7 +1407,7 @@ Show
 
 
 # ==============================
-#	[0920]	MAP BASES 
+#	[0920]		MAP BASES 
 # ==============================
 
 # ALWAYS SHOW THESE MAGIC ITEM TYPES
@@ -1402,7 +1419,7 @@ Show
 	SetBorderColor 171 23 50 255			#MAGIC COMP2 
 	SetFontSize 35
 # ==============================
-#	[0930]			IDENTIFIED	
+#	[0930]		IDENTIFIED	
 # ==============================
 Show
 	Identified True
@@ -1554,7 +1571,7 @@ Hide
 # ================================	
 
 # ================================
-#   [1000]		CHANCE
+#   [1000]	CHANCE
 # ================================	
 
 # Inpulsa
@@ -1569,7 +1586,7 @@ Hide
 # ================================
 
 # ================================
-#	[1100]		NORMAL
+#	[1100]	NORMAL
 # ================================
 
 # ================================
@@ -1632,7 +1649,7 @@ Hide
 
 
 # ================================
-#	[1200]		SKILL GEMS 
+#	[1200]	SKILL GEMS 
 # ================================
 #GEM COLOR   						27 162 155
 
@@ -1678,11 +1695,11 @@ Show
 # ===============================
 
 # ===============================
-#	[1300]		QUEST ITEMS
+#	[1300]	QUEST ITEMS
 # ===============================
 # GOLDEN AND SILVER KEY	
 Show
-	BaseType "Golden Key" "Silver Key" "Treasure Key"
+	BaseType "Golden Key" "Silver Key" "Treasure Key" "Bane of the Loyal" "Cogs of Disruption" "Cube Of Absorption" "Heart of the Gargoyle" "Orb of Elemental Dispersion" "Portal Shredder" "Rod of Detonation" "Sand of Eternity"
 	SetBackgroundColor 0 0 0 255
 	SetTextColor 74 230 58 255				#QUEST GREEN
 	SetBorderColor 74 230 58 255			#QUEST GREEN 

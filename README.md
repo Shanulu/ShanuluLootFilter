@@ -3,17 +3,18 @@ A Path of Exile Loot FIlter
 
 December 
 - Added the rest of the Divination Cards.
-- Fixed duplicate divination card names and retiered some.
 - Added the Divine Vessel.
-- Lowered the magic item alpha.
-- Removed sound on non-rare map bases.
+- Added all the Lab's special items.
 - Added A and S Tier Currency Minimap icon as Green Hexagon
-- Moved Blessed Orb to the non-sound B Tier.
-- Filtered Identified items by affix.
-- Fixed a unique flask issue. 
 - Updated the Table of Contents.
 - Updated the Unique Tiers (Thanks again to Neversink)
-- Changed RGB Coloration slightly on Rares. (Darker Currency Gray)
+- Updated Blessed Orb to the non-sound B Tier.
+- Updated the magic item alpha, it is now lower.
+- Fixed sound on non-rare map bases. It no longer plays.
+- Fixed the Identified items. They now show by affix.
+- Fixed a unique flask issue.
+- Fixed RGB Coloration slightly on Rares. I have darkened Currency Gray.
+- Fixed duplicate divination card names and retiered some.
 
 
 December 7th:
