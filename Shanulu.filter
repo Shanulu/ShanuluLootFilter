@@ -10,93 +10,95 @@
 ### TABLE OF CONTENTS ###
 #   =============================
 #
-#	SPECIAL ITEMS
-#		FISHING RODS
-#		ALBINO RHOA FEATHER
-#		6 LINKS
+#	[0100]	SPECIAL ITEMS
+#	[0110]		FISHING RODS
+#	[0120]		ALBINO RHOA FEATHER
+#	[0130]		6 LINKS
+#	[0140]		VEILED ITEMS TEMPORARY
 #
-# 	CURRENCY
-#		SCARABS
-#		ESSENCE
-#			S TIER#			
-#			A TIER
-#			B TIER
-#			C TIER
-#			D TIER
-#			MISC TIER
-#			BASIC COLORING CATCH ALL
-#		FOSSILS
-#		RESONATORS
-#		GENERAL CURRENCY 
-#			S TIER
-#			A TIER
-#			B TIER
-#			B TIER NO SOUND
-#			C TIER 
-#			D TIER 
-#			MISC TIER
-#				PERANDUS
-#				SILVER COIN 
-#				HARBINGER EXTRA
+# 	[0200]	CURRENCY
+#	[0210]		SCARABS
+#	[0220]		ESSENCE
+#	[0230]		FOSSILS
+#	[0240]		RESONATORS
+#	[0250]		GENERAL CURRENCY 
+#	[0251]			S TIER
+#	[2052]			A TIER
+#	[0253]			B TIER
+#	[0254]			B TIER NO SOUND
+#	[0255]			C TIER 
+#	[0256]			D TIER 
+#	[0260]			MISC TIER
+#	[0261]				PERANDUS
+#	[0262]				SILVER COIN 
+#	[0263]				HARBINGER EXTRA
 #
-# 	DIVINATION
-#		EXCEPTIONS
-#		S TIER
-#		A TIER 
-#		B TIER 
-# 		C TIER 
-#		FOSSILS
+# 	[0300]		DIVINATION
+#	[0310]			EXCEPTIONS
+#	[0320]			S TIER
+#	[0330]			A TIER 
+#	[0340]			B TIER 
+# 	[0350]			C TIER 
+#		
 #
-#	MAPS
-#		SPECIAL MAP-LIKE DROPS
-#		UNIQUE MAPS
-#		SHAPED MAPS
-#		RED TIER
-#		YELLOW TIER
-#		WHITE TIER
+#	[0400]		MAPS
+#	[0410]			SPECIAL MAP-LIKE DROPS
+#	[0420]			RED TIER
+#	[0430]			YELLOW TIER
+#	[0440]			WHITE TIER
 #
-#	FLASKS   ------ IVE JUST COPIED NEVERSINKS SECTION
-#		UNIQUE
-#		HEALING
-#		MANA
-#		UTILITY
+#	[0500]		FLASKS   ------ IVE JUST COPIED NEVERSINKS SECTION
+#	[0510]			UNIQUE
+#	[0520]			HEALING
+#	[0530]			MANA
+#	[0540]			UTILITY
 #
-# 	UNIQUES  
-#		S TIER
-#		A TIER 
-#		UNIQUE CATCH ALL 
+# 	[0600]		UNIQUES 
+#	[0610]			SPECIAL RULES
+#	[0610]			S TIER
+#	[0620]			A TIER 
+#	[0630]			UNIQUE CATCH ALL 
 #
-#	RECIPES
-#		JEWELER
-#		CHROMATIC
+#	[0700]		RECIPES
+#	[0710]			JEWELER
+#	[0720]			CHROMATIC
 #
-#	RARE
-#		SHAPER/ELDER
-#		IDENTIFIED
-#		S TIER
-#		LEVELING
+#	[0800]		RARE
+#	[0810]			SHAPER/ELDER/
+#	[0820]			MAP BASES
+#	[0830]			IDENTIFIED
+#	[0840]			S TIER
+#	[0850]			LEVELING
 #
-#	MAGIC
-#		IDENTIFIED
-#		LEVELING
+#	[0900]		MAGIC
+#	[0910]			ELDER/SHAPER
+#	[0920]			MAP BASES
+#	[0930]			IDENTIFIED
+#	[0940]			LEVELING
 #
-#	NORMAL
-#		LEVELING
+#   [1000]		CHANCE
 #
-#   CHANCE
-#		INPULSA EXAMPLE
+#	[1100]		NORMAL
+#	[1110]			ELDER/SHAPER
+#	[1120]			MAP BASES
+#	[1130]			LEVELING
 #
-#	SKILL GEMS 
+#	[1200]		SKILL GEMS 
 #
-#	QUEST ITEMS
+#	[1300]		QUEST ITEMS
+
+
+
 
 
 # ============================
-# 		 SPECIAL ITEMS 
+#	[0100]	SPECIAL ITEMS
 # ============================
 
 
-# FISHING RODS
+# ============================
+#	[0110]		FISHING RODS
+# ============================
 Show
 	Class "Fishing Rod"
 #	SetBackgroundColor
@@ -105,7 +107,9 @@ Show
 	SetFontSize 40
 	PlayAlertSound 6 300
 	
-# ALBINO RHOA FEATHER
+# ============================
+#	[0120]		ALBINO RHOA FEATHER
+# ============================
 Show
 	BaseType "Albino Rhoa Feather"
 #	SetBackgroundColor
@@ -113,8 +117,10 @@ Show
 #	SetBorderColor
 	SetFontSize 40
 	PlayAlertSound 6 300
-	
-# SIX LINKED
+
+# ============================
+#	[0130]		6 LINKS
+# ============================
 Show
 	LinkedSockets 6
 	Rarity = Unique
@@ -159,13 +165,26 @@ Show
 	MinimapIcon 2 White Hexagon
 	PlayEffect White
 	
+# ========================================
+# 	[0140]		VEILED ITEMS TEMPORARY 
+# ========================================
+Show 
+	Identified True
+	HasExplicitMod "Veil"
+	SetBackgroundColor 255 255 255 255
+	SetTextColor 0 0 0 255
+	SetBorderColor 255 255 255 255
+	SetFontSize 40	
 	
 # ==============================
 # 	    END SPECIAL ITEMS 
 # ==============================
 	
+	
+	
+	
 #================================
-#         CURRENCY
+# 	[0200]	CURRENCY
 #================================
 #CURRENCY GRAY 				170 158 130
 #CURRENCY PURPLE 			168 130 170
@@ -173,7 +192,7 @@ Show
 
 
 # ===========================
-# 			SCARABS
+# 	[0210]	SCARABS
 # ===========================
 Show
 	Class "Map Fragments"
@@ -205,7 +224,7 @@ Show
 	
 	
 # ===========================
-# 			ESSENCE
+# 	[0220]	ESSENCE
 # ===========================
 # ESSENCE BLUE				30 144 255 
 
@@ -267,7 +286,7 @@ Show
 	SetFontSize 30
 	
 # ===========================
-# 			FOSSILS
+# 	[0230]	FOSSILS
 # ===========================
 
 Show #TOP TIER ACCORDING TO POE.NINJA 9/8/18
@@ -293,7 +312,9 @@ Show #MID TO LOW TIER, SUB 2 CHAOS
 	SetBorderColor 0 0 0 255			#BLACK
 	SetFontSize 35
 	
-# RESONATORS
+# ===========================
+# 	[0240]	RESONATORS
+# ===========================
 Show
 	Class "Delve Socketable Currency"
 	BaseType "Prime"
@@ -311,9 +332,12 @@ Show
 	SetFontSize 35
 
 # ===========================
-# 	   GENERAL CURRENCY
+# 	[0250]	GENERAL CURRENCY
 # ===========================
-# S TIER
+
+# ===========================
+# 	[0251]		S TIER
+# ===========================
 Show
 	BaseType "Mirror of Kalandra" "Exalted Orb" "Ancient Reliquary Key" "Timeworn Reliquary Key" "Mirror Shard" "Eternal Orb"
 	SetBackgroundColor 130 138 170 255	#CURRENCY BLUE
@@ -323,7 +347,9 @@ Show
 	PlayAlertSound 6 300				#TEMP SOUND
 	MinimapIcon 0 Green Hexagon
 
-# A TIER
+# ===========================
+# 	[0252]		A TIER
+# ===========================
 Show 
 	BaseType "Chaos Orb" "Orb of Annulment" "Divine Orb" "Master Cartographer's Sextant" "Orb of Fusing" "Journeyman Cartographer's Sextant"  "Ancient Orb" "Harbinger's Orb"  "Orb of Annulment" "Splinter of"
 	SetBackgroundColor 130 138 170 255	#CURRENCY BLUE
@@ -333,7 +359,9 @@ Show
 	PlayAlertSound 2 300				#TEMP SOUND
 	MinimapIcon 2 Green Hexagon
 
-# B TIER
+# ===========================
+# 	[0253]		B TIER
+# ===========================
 Show #With Sound
 	BaseType "Orb of Alchemy" "Vaal Orb" "Gemcutter's Prism" "Cartographer's Chisel" "Apprentice Cartographer's Sextant" "Regal Orb" "Bestiary Orb" "Orb of Horizons" "Exalted Shard"
 	SetBackgroundColor 170 158 130 255	#CURRENCY GRAY
@@ -342,6 +370,10 @@ Show #With Sound
 	SetFontSize 35
 	PlayAlertSound 2 300				#TEMP SOUND
 	
+	
+# ===========================
+# 	[0254]		B TIER
+# ===========================
 Show #Without Sound
 	BaseType "Orb of Alteration" "Blessed Orb"
 	SetBackgroundColor 170 158 130 255	#CURRENCY GRAY
@@ -349,7 +381,9 @@ Show #Without Sound
 	SetBorderColor 0 0 0 255			#BLACK
 	SetFontSize 35
 
-# C TIER
+# ===========================
+# 	[0255]		C TIER
+# ===========================
 Show
 	BaseType "Chromatic Orb" "Orb of Scouring" "Orb of Regret" "Orb of Chance" "Engineer's Orb"  "Orb of Binding"
 	SetBackgroundColor 170 158 130 255	#CURRENCY GRAY
@@ -357,7 +391,9 @@ Show
 	#SetBorderColor 					#
 	SetFontSize 30
 
-# D TIER
+# ===========================
+# 	[0256]		D TIER
+# ===========================
 Show
 	BaseType  "Armourer's Scrap" "Orb of Augmentation" "Transmutation Shard" "Alteration Shard" "Glassblower's Bauble" "Orb of Transmutation" "Alchemy Shard"
 	SetBackgroundColor 170 158 130 255	#CURRENCY GRAY
@@ -380,7 +416,14 @@ Show
 	SetFontSize 30
 	
 
-# Misc TIER - Perandus
+# ===========================
+# 	[0260]		MISC
+# ===========================
+
+
+# ===========================
+# 	[0261]		PERANDUS
+# ===========================
 Show
 	BaseType "Perandus Coin"
 	StackSize >= 15
@@ -406,14 +449,18 @@ Show
 	SetBorderColor 130 138 170 255		#CURRENCY BLUE
 	SetFontSize 30
 
-#Misc TIER - Silver Coin
+# ===========================
+# 	[0262]		SILVER COIN
+# ===========================
 Show
 	BaseType "Silver Coin"
 	SetBackgroundColor 168 130 170 255	#CURRENCY PURPLE
 	SetTextColor 0 0 0 255				#
 	SetFontSize 30
 	
-#Misc TIER - Harbinger League Extras
+# ===========================
+# 	[0263]		HARBINGER
+# ===========================
 Show
 	BaseType "Ancient Shard" "Harbinger's Shard" "Horizon Shard" "Annulment Shard"
 	SetBackgroundColor 170 158 130 255	#CURRENCY GRAY
@@ -435,20 +482,26 @@ Show
 	SetTextColor 0 0 0 255				#
 	#SetBorderColor 					#
 	SetFontSize 30
-
-
-
+	
 # =======================
 #    END CURRENCY
 # =======================
 
-# =======================
-#      DIVINATION
-# =======================
+
+
+
+
+# ===========================
+# 	[0300]		DIVINATION
+# ===========================
 # ESSENCE BLUE 			14 186 255 
 
-# The Wolves Shadow WILL GET MISTAKEN FOR The Wolf
 
+# ===========================
+# 	[0310]		EXCEPTIONS
+# ===========================
+
+# The Wolves Shadow WILL GET MISTAKEN FOR The Wolf
 Show #C TIER
 	Class "Divination"
 	BaseType "The Wolf's Shadow"
@@ -472,7 +525,9 @@ Show
 	MinimapIcon 0 Blue Square
 	#PlayEffect Blue	
 
-# S TIER
+# =======================
+# 	[0320]		S TIER
+# =======================
 Show
 	Class "Divination"
 	BaseType "Abandoned Wealth" "Heterochromia" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Last Hope" "Mawr Blaidd" "Polymath" "Pride Before the Fall" "Spark and the Flame" "The Artist" "The Brittle Emperor" "The Celestial Justicar" "The Celestial Stone" "The Doctor" "The Dragon's Heart" "The Enlightened" "The Fiend" "The Formless Sea" "The Hunger" "The Immortal" "The Iron Bard" "The King's Heart" "The Last One Standing" "The Master" "The Mayor" "The Offering" "The Professor" "The Queen" "The Saint's Treasure" "The Samurai's Eye" "The Sephirot" "The Spark and the Flame" "The Undaunted" "The Wind" "The Wolf" "The Wolven King's Bite" "The World Eater" "Wealth and Power" "Beauty Through Death" "The Endless Darkness" "Boon of the First Ones" "A Dab of Ink" "The Sacrifice"
@@ -484,7 +539,9 @@ Show
 	MinimapIcon 0 Blue Square
 	PlayEffect Blue
 	
-# A TIER
+# =======================
+# 	[0330]		A TIER
+# =======================
 Show
 	Class "Divination"
 	BaseType "Bowyer's Dream" "Chaotic Disposition" "Emperor of Purity" "Left to Fate" "Perfection" "The Saint's Treasure" "The Breach" "The Cartographer" "The Dapper Prodigy" "The Dragon" "The Dreamer" "The Ethereal" "The Hale Heart" "The Hoarder" "The Jeweller's Boon" "The Obscured" "The Polymath" "The Risk" "The Thaumaturgist" "The Throne" "The Undisputed" "The Valley of Steel Boxes" "The Vast" "The Void" "Time-Lost Relic" "The Wilted Rose" "The Price of Protection" "The Twilight Moon" "The Visionary" "The Fathomless Depths" "The Life Thief" "The Nurse"
@@ -496,7 +553,9 @@ Show
 	MinimapIcon 0 Blue Square
 	PlayEffect Blue
 
-# B TIER
+# =======================
+# 	[0340]		B TIER
+# =======================
 Show
 	Class "Divination"
 	BaseType "Audacity" "Blessing of God" "Blind Venture" "Earth Drinker" "Gemcutter's Promise" "Glimmer of Hope" "Harmony of Souls" "Hope" "Hubris" "Humility" "Jack in the Box" "Lingering Remnants" "Lost Worlds" "Lucky Connections" "Lucky Deck" "Merciless Armament" "No Traces" "Rats" "Rebirth" "Scholar of the Seas" "Shard of Fate" "Standoff" "The Admirer" "The Aesthete" "The Avenger" "The Beast" "The Blazing Fire" "The Body" "The Chains that Bind" "The Cursed King" "The Dark Mage" "The Darkest Dream" "The Demoness" "The Dreamland" "The Encroaching Darkness" "The Fletcher" "The Forsaken" "The Gladiator" "The Insatiable" "The Inventor" "The Jester" "The Lion" "The One With All" "The Penitent" "The Poet" "The Porcupine" "The Realm" "The Road to Power" "The Soul" "The Standoff" "The Surveyor" "The Sword King's Salute" "The Traitor" "The Trial" "The Tyrant" "The Warlord" "The Wrath" "The Wretched" "Treasure Hunter" "Valley of Steel Boxes" "Vinia's Token" "The Cacophony" "The Innocent" "Coveted Possession" "Emperor's Luck" "Loyalty" "The Catalyst" "The Gemcutter" "The Survivalist" "The Union" "Three Faces in the Dark" "Three Voices" "Rain of Chaos" "The Puzzle" "Call to the First Ones" "The Opulent" "The Watcher" "The Valkyrie" "The Deceiver" "The Garish Power" "Atziri's Arsenal" "Dialla's Subjugation" "Forbidden Power" "Lysah's Respite" "The Arena Champion" "The Cataclysm" "The Explorer" "The Harvester" "The Lord in Black" "The Mercenary" "The Scavenger" "The Stormcaller"
@@ -508,7 +567,9 @@ Show
 	MinimapIcon 0 Blue Square
 	PlayEffect Blue
 
-# C TIER
+# =======================
+# 	[0340]		C TIER
+# =======================
 Show
 	Class "Divination"
 	BaseType "A Mother's Parting Gift" "Anarchy's Price" "Birth of the Three" "Carrion Crow" "Cartographer's Delight" "Death" "Dying Anguish" "The Hermit" "The King's Blade" "Lantador's Lost Love" "Light and Truth" "Metalsmith's Gift" "Might is Right" "Other Cheek" "Prosperity" "Rain of Chaos" "Rain Tempter" "Struck by Lightning" "The Army of Blood" "The Coming Storm" "The Conduit" "The Eye of the Dragon" "The Feast" "The Gambler" "The Incantation" "The Inoculated" "The Lich" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Oath" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Scholar" "The Sigil" "The Siren" "The Surgeon" "The Tower" "The Twins" "The Warden" "The Wolverine" "Thunderous Skies" "Volatile Power" "Her Mask" "The Flora's Gift" "The Gentleman" "The Doppelganger" "The Endurance" "The Drunken Aristocrat" "Destined to Crumble" "Mitts" "The Betrayal" "The Rite of Elements" "The Calling" "Hunter's Resolve" "Doedre's Madness" "Boundless Realms" "The Web" "The Scholar" "The Summoner" "Grave Knowledge" "Gift of the Gemling Queen" "The Battle Born" "The Fox" "The Pack Leader" "The Pact" "The Spoiled Prince" "The Sun" "The Witch" "Tranquillity" "Turn the Other Cheek" "Assassin's Favour"
@@ -521,18 +582,14 @@ Show
 	#PlayEffect Blue
 	
 # CATCH ALL PINK AT BOTTOM
-	
-
 # =======================
 #     END DIVINATION
 #========================
 
 
 # =======================
-#        MAPS
+#	[0400]		MAPS
 #========================
-
-
 #Map Display Colors
 #========================
 #RED TIER 						100 0 0	
@@ -540,6 +597,10 @@ Show
 #WHITE TIER 					
 #========================
 
+
+# ============================================
+#	[0410]			SPECIAL MAP-LIKE DROPS
+#=============================================
 #FRAGMENTS
 Show 
 	BaseType "Mortal" "Eber's Key" "Yriel's Key" "Inya's Key" "Volkuur's Key" "Sacrifice at Midnight" "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Hydra" "Breachstone"
@@ -571,7 +632,9 @@ Show
 	MinimapIcon 2 White Circle
 	PlayEffect White
 
-# TOP TIER		
+#=============================================
+#	[0420]			RED TIER
+#=============================================	
 Show 
 	MapTier >= 11
 	Class  Maps
@@ -583,7 +646,9 @@ Show
 	MinimapIcon 2 Red Circle
 	PlayEffect Red
 	
-# All MID TIER
+#=============================================
+#	[0430]			YELLOW TIER
+#=============================================	
 Show 
 	MapTier >= 6
 	Class  Maps
@@ -594,7 +659,9 @@ Show
 	MinimapIcon 2 Yellow Circle
 	PlayEffect Yellow	
 
-# ALL LOW TIER
+#=============================================
+#	[0440]			RED TIER
+#=============================================	
 Show
 	MapTier < 6
 	Class  Maps
@@ -604,16 +671,22 @@ Show
 	SetFontSize 30     
 	MinimapIcon 2 White Circle
 	PlayEffect White
-
 	
 # ==============================
 #        END MAPS 
 # ==============================
 	
+	
+	
+	
 # ==============================
-#        FLASKS
+#	[0500]		FLASKS 
 # ==============================	
 
+# ==============================
+#	[0510]		 UNIQUE FLASKS 	
+# ==============================
+# We override special flasks down in the unique section	
 Show
 	Class "Life Flasks" "Mana Flasks" "Hybrid Flasks"
 	Rarity = Unique
@@ -624,16 +697,10 @@ Show
 	PlayAlertSound 3 300
 	PlayEffect Brown
 	MinimapIcon 0 White Star
-	
-Show # %D3
-	ItemLevel <= 65
-	Rarity <= Magic
-	Class "Utility Flasks"
-	SetFontSize 36
-	SetBorderColor 50 200 125            # BORDERCOLOR:	 Flask
-	SetBackgroundColor 25 100 75    
 
-	
+# ==============================
+#	[0520]		 HEALTH FLASKS 	
+# ==============================
 # THIS FLASKS SECTION IS DIRECTLY COPYPASTAD FROM NEVERSINK SO THANKS FOR THAT
 Show # %D5
 	ItemLevel <= 5
@@ -742,9 +809,11 @@ Show # %D5
 	SetBorderColor 120 0 0               
 	SetBackgroundColor 0 0 0 255        
 
-#------------------------------------
+# ==============================
+#	[0530]		 MANA FLASKS 	
+# ==============================
 #   COPYPASTAD FROM NEVERSINK BECAUSE IM LAZY 2.0
-#------------------------------------
+
 
 Show # %D5
 	ItemLevel <= 5
@@ -851,89 +920,34 @@ Show # %D5
 	BaseType "Eternal"
 	SetFontSize 30
 	SetBorderColor 0 0 120               
-	SetBackgroundColor 0 0 0 255         
+	SetBackgroundColor 0 0 0 255  
 	
+# ==============================
+#	[0540]		 UTILITY FLASKS 	
+# ==============================	
+Show # %D3
+	ItemLevel <= 65
+	Rarity <= Magic
+	Class "Utility Flasks"
+	SetFontSize 36
+	SetBorderColor 50 200 125            # BORDERCOLOR:	 Flask
+	SetBackgroundColor 25 100 75 
 
 # ==============================
 #        END FLASKS 
 # ==============================
 
-# ===============================
-# 		 JEWELS
-# ===============================
-
-# ALWAYS SHOW ABYSS JEWELS
-Show
-	Class "Abyss Jewel"
-	Rarity = Rare
-	SetBackgroundColor 254 170 0 255		#RARE YELLOW
-	SetTextColor 0 0 0 255
-	SetBorderColor 212 0 254 255			#RARE COMP1
-	SetFontSize 40
-	
-Show
-	Class "Abyss Jewel"
-	Rarity = Magic
-	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetFontSize 35
-
-# HIDE MAGIC JEWELS IN HIGH LEVEL ZONES
-Hide
-	Class "Jewel"
-	Rarity <= Magic 
-	ItemLevel >= 68
-	SetFontSize 18
-
-# ==============================
-#        END JEWELS 
-# ==============================
-
 # ================================
-#       VEILED ITEMS TEMPORARY 
-# ================================
-
-Show 
-	Identified True
-	HasExplicitMod "Veil"
-	SetBackgroundColor 255 255 255 255
-	SetTextColor 0 0 0 255
-	SetBorderColor 255 255 255 255
-	SetFontSize 40
-	
-# ================================
-#     IDENTIFIED ITEMS 
-# ================================
-
-Show
-	Identified True
-	HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "of Farrul" "of Craiceann" "of Fenumus" "of Saqawal" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "Merciless" "Runic" "Xoph's" "Esh's" "Necromancer's" 
-	Rarity Rare 
-	SetBackgroundColor 254 170 0 255		#RARE YELLOW
-	SetTextColor 0 0 0 255
-	SetBorderColor 212 0 254 255			#RARE COMP1
-	SetFontSize 40
-	
-Show
-	Identified True
-	HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "of Farrul" "of Craiceann" "of Fenumus" "of Saqawal" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "Merciless" "Runic" "Xoph's" "Esh's" "Necromancer's"
-	Rarity = Magic
-	SetBackgroundColor 23 75 171 225		#MAGIC BLUE
-	SetTextColor 0 0 0 255					#BLACK
-	SetBorderColor 171 23 50 255			#MAGIC COMP2 
-	SetFontSize 35
-	
-# ================================
-#        UNIQUE ITEMS 
+# 	[0600]		UNIQUES 
 #=================================
 #UNIQUE BROWN					175 96 37	
 #UNIQUE COMP1 					85 37 175
 #UNIQUE COMP2					37 175 136
 #================================
 
-#UNIQUE RULE EXCEPTIONS
-
+# ================================
+# 	[0610]			SPECIAL 
+#=================================
 #TABULA
 Show
 	BaseType "Simple Robe"
@@ -946,8 +960,10 @@ Show
 	PlayEffect Brown
 	MinimapIcon 0 Brown Star
 	
+# ================================
+# 	[0620]			#S TIER - THANKS TO NEVERSINK FOR THESE TIERS
+#=================================
 
-#S TIER - THANKS TO NEVERSINK FOR THESE TIERS
 Show
 	BaseType "Ambush Mitts" "Arcanist Slippers" "Callous Mask" "Carnal Boots" "Clutching Talisman" "Crusader Boots" "Ezomyte Tower Shield" "Glorious Plate" "Greatwolf Talisman" "Highborn Staff" "Jewelled Foil" "Nubuck Boots" "Occultist's Vestment" "Prismatic Jewel" "Prophecy Wand" "Rawhide Boots" "Rawhide Tower Shield" "Riveted Gloves" "Rotfeather Talisman" "Royal Axe" "Ruby Flask" "Sapphire Flask"
 	Rarity = Unique
@@ -959,7 +975,9 @@ Show
 	PlayEffect Brown
 	MinimapIcon 0 Brown Star
 
-#A TIER
+# ================================
+# 	[0630]			A TIER 
+#=================================
 Show
 	BaseType "Ancient Gauntlets" "Arcanist Gloves" "Assassin's Boots" "Bismuth Flask" "Callous Mask Piece" "Cutlass" "Full Wyrmscale" "Gemstone Sword" "Grand Mana Flask" "Jingling Spirit Shield" "Legion Gloves" "Nightmare Bascinet" "Nightmare Mace" "Sacrificial Garb" "Savant's Robe" "Thorium Spirit Shield" "Topaz Flask" "Vaal Spirit Shield" "Wereclaw Talisman"
 	Rarity = Unique
@@ -971,7 +989,9 @@ Show
 	PlayEffect Brown
 	MinimapIcon 0 Yellow Star	
 	
-#UNIQUE CATCH ALL
+# ================================
+# 	[0640]			CATCH ALL
+#=================================
 Show
 	Rarity = Unique
 	SetBackgroundColor 175 96 37 255		#UNIQUE BROWN
@@ -987,11 +1007,13 @@ Show
 #=================================
 
 
-# ===================
-#     RECIPES 
-# ===================
+#=================================
+#	[0700]		RECIPES
+#=================================
 
-#Jewelers
+#=================================
+#	[0710]		JEWELERS
+#=================================
 #rare 6 socket
 Show 
 	Sockets 6
@@ -1020,9 +1042,9 @@ Show
 	SetFontSize 30
 	PlayAlertSound 2 300
 	
-# =======================
-#     CHROMATICS
-# =======================
+#=================================
+#	[0720]		CHROMATICS
+#=================================
 
 # rare 2x2 RGB
 Show
@@ -1103,19 +1125,23 @@ Show
 # =======================
 
 # ================================
-#        RARE ITEMS 
-#=================================
-
+#	[0800]		RARE
+# ================================
 #Rare Display Colors
-#================================
+# ================================
 #RARE YELLOW					254 170 0
 #RARE COMP1						212 0 254
 #RARE COMP2						0 80 254
-#================================
+# ================================
 
+
+# ================================
+#	[0810]		ELDER/SHAPER
+# ================================
 # ALWAYS SHOW SHAPER ITEMS 	
 Show
 	ShaperItem true
+	Rarity = Rare
 	SetBackgroundColor 254 170 0 255		#RARE YELLOW
 	SetTextColor 0 0 0 255
 	SetBorderColor 212 0 254 255			#RARE COMP1
@@ -1124,11 +1150,15 @@ Show
 # ALWAYS SHOW ELDER ITEMS	
 Show
 	ElderItem true
+	Rarity = Rare
 	SetBackgroundColor 254 170 0 255		#RARE YELLOW
 	SetTextColor 0 0 0 255
 	SetBorderColor 212 0 254 255			#RARE COMP1
 	SetFontSize 40
 	
+# ================================
+#	[0820]		MAP BASES 
+# ================================	
 # SHOWING MAP SPECIFIC BASES
 Show
 	BaseType "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Steel Ring" "Opal Ring"
@@ -1139,6 +1169,22 @@ Show
 	SetFontSize 40
 	PlayAlertSound 2 300 
 	
+# ================================
+#	[0810]		INDENTIFIED
+# ================================
+
+Show
+	Identified True
+	HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "of Farrul" "of Craiceann" "of Fenumus" "of Saqawal" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "Merciless" "Runic" "Xoph's" "Esh's" "Necromancer's" 
+	Rarity Rare 
+	SetBackgroundColor 254 170 0 255		#RARE YELLOW
+	SetTextColor 0 0 0 255
+	SetBorderColor 212 0 254 255			#RARE COMP1
+	SetFontSize 40
+
+#=========================================
+#  [0840] 		LEVELING RARE
+#=========================================
 	
 # SHOW US ALL TOP TIER RARES ABOVE iLEVEL 84	
 Show
@@ -1168,12 +1214,17 @@ Show
 	SetBorderColor 212 0 254 255			#RARE COMP1
 	SetFontSize 40
 
+# ALWAYS SHOW ABYSS JEWELS
+Show
+	Class "Abyss Jewel"
+	Rarity = Rare
+	SetBackgroundColor 254 170 0 255		#RARE YELLOW
+	SetTextColor 0 0 0 255
+	SetBorderColor 212 0 254 255			#RARE COMP1
+	SetFontSize 40
+	
 
-#==========================================================================	
-#THIS NEXT SECTION IS TAILORED TO STOP SHOWING RARES AFTER WE OUTLEVEL THEM
-#==========================================================================
-
-# BUT FIRST WE SHOW 4 LINKS FOR A BIT  
+# FIRST WE SHOW 4 LINKS FOR A BIT  
 # ABOUT THE END OF ACT 4
 Show
 	Class  "Two Hand" "Bows" "Staves" "Body Armour" "Gloves" "Boots" "Helmets"
@@ -1308,13 +1359,39 @@ Hide
 #=================================
 
 # ================================
-#        MAGIC ITEMS
+#	[0900]		MAGIC
 #=================================
 #Magic Display Colors
 #================================
 #MAGIC BLUE 				23 75 171
 #MAGIC COMP2				171 23 50 (PURPLE)
 #================================
+
+
+#	[0910]	ELDER/SHAPER 
+# ALWAYS SHOW SHAPER ITEMS 	
+Show
+	ShaperItem true
+	Rarity = Magic
+	SetBackgroundColor 23 75 171 225		#MAGIC BLUE
+	SetTextColor 0 0 0 255					#BLACK
+	SetBorderColor 171 23 50 255			#MAGIC COMP2 
+	SetFontSize 40
+	
+# ALWAYS SHOW ELDER ITEMS	
+Show
+	ElderItem true
+	Rarity = Magic
+	SetBackgroundColor 23 75 171 225		#MAGIC BLUE
+	SetTextColor 0 0 0 255					#BLACK
+	SetBorderColor 171 23 50 255			#MAGIC COMP2 
+	SetFontSize 40
+
+
+
+# ==============================
+#	[0920]	MAP BASES 
+# ==============================
 
 # ALWAYS SHOW THESE MAGIC ITEM TYPES
 Show
@@ -1324,8 +1401,23 @@ Show
 	SetTextColor 0 0 0 255					#BLACK
 	SetBorderColor 171 23 50 255			#MAGIC COMP2 
 	SetFontSize 35
-	
+# ==============================
+#	[0930]			IDENTIFIED	
+# ==============================
+Show
+	Identified True
+	HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean" "of Farrul" "of Craiceann" "of Fenumus" "of Saqawal" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "Merciless" "Runic" "Xoph's" "Esh's" "Necromancer's"
+	Rarity = Magic
+	SetBackgroundColor 23 75 171 225		#MAGIC BLUE
+	SetTextColor 0 0 0 255					#BLACK
+	SetBorderColor 171 23 50 255			#MAGIC COMP2 
+	SetFontSize 35
 
+#========================================
+#  [0940] 		LEVELING MAGIC
+#========================================	
+
+# JEWELS	
 Show
 	Class "Jewel"
 	Rarity = Magic 
@@ -1333,6 +1425,20 @@ Show
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetFontSize 35
+Show
+	Class "Abyss Jewel"
+	Rarity = Magic
+	SetBackgroundColor 23 75 171 255		#MAGIC BLUE
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetFontSize 35
+
+# HIDE MAGIC JEWELS IN HIGH LEVEL ZONES
+Hide
+	Class "Jewel"
+	Rarity <= Magic 
+	ItemLevel >= 68
+	SetFontSize 18
 	
 # HIGH LEVEL MAGIC ITEMS ARE ALL HIDDEN REVEAL RULES BELOW
 Hide
@@ -1344,9 +1450,6 @@ Hide
 	SetTextColor 0 0 0 255
 	SetFontSize 20
 	
-#==========================================================================	
-#THIS NEXT SECTION IS TAILORED TO STOP SHOWING MAGICS AFTER WE OUTLEVEL THEM
-#===========================================================================
 
 # BUT FIRST WE SHOW 4 LINKS FOR A BIT 
 # ABOUT THE END OF ACT 4
@@ -1450,33 +1553,56 @@ Hide
 #       END MAGIC ITEMS 
 # ================================	
 
+# ================================
+#   [1000]		CHANCE
+# ================================	
 
+# Inpulsa
+#Show
+#	Corrupted False
+#	BaseType "Sadist Garb"
+#	Rarity Normal
+#	SetFontSize 30
 
 # ================================
-#        NORMAL ITEMS 
+#       END CHANCE ITEMS 
 # ================================
 
+# ================================
+#	[1100]		NORMAL
+# ================================
+
+# ================================
+#	[1110]		ELDER/SHAPER
+# ================================
+# ALWAYS SHOW SHAPER ITEMS 	
+Show
+	ShaperItem true
+	Rarity = Normal
+	SetBorderColor 255 255 255 255
+	SetFontSize 40
+	
+# ALWAYS SHOW ELDER ITEMS	
+Show
+	ElderItem true
+	Rarity = Normal
+	SetBorderColor 255 255 255 255
+	SetFontSize 40
+
+# ================================
+#	[1120]		MAP BASES
+# ================================	
+	
 # ALWAYS SHOW MAP SPECIFIC BASES
 Show	
 	BaseType  "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Steel Ring" "Opal Ring"
 	Rarity = Normal
 	SetBorderColor 255 255 255 255
-	SetFontSize 30
-
-# ================================
-#      CHANCE ITEMS
-# ================================	
-
-# Inpulsa
-Show
-	Corrupted False
-	BaseType "Sadist Garb"
-	Rarity Normal
-	SetBorderColor 255 255 255 255
-	SetFontSize 30
-
- 	
+	SetFontSize 30	
 	
+# ================================
+#	[1130]		LEVELING
+# ================================
 # WE SHOW 4 LINKS FOR A BIT 
 # ABOUT THE END OF ACT 4
 Show
@@ -1506,7 +1632,7 @@ Hide
 
 
 # ================================
-#       SKILL GEMS 
+#	[1200]		SKILL GEMS 
 # ================================
 #GEM COLOR   						27 162 155
 
@@ -1552,7 +1678,7 @@ Show
 # ===============================
 
 # ===============================
-#        QUEST ITEMS
+#	[1300]		QUEST ITEMS
 # ===============================
 # GOLDEN AND SILVER KEY	
 Show
