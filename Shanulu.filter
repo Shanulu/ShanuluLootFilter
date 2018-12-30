@@ -557,8 +557,7 @@ Show
 	SetBackgroundColor 0 0 0 255
 	SetTextColor 74 230 58 255				#QUEST GREEN
 	SetBorderColor 74 230 58 255			#QUEST GREEN 
-	SetFontSize 40
-	PlayAlertSound 5 300	
+	SetFontSize 40	
 	MinimapIcon 2 Green Circle
 	PlayEffect Green
 	
